@@ -65,6 +65,13 @@ public class CarSearchView extends VBox {
 		buildView();
 	}
 
+	/** Setter for the <code>presenter</code> attribute.
+	 * @param CarSearchPresenter presenter
+	 */
+	public void setPresenter(CarSearchPresenter presenter) {
+		this.presenter = presenter;
+	}
+
 	/**
 	 * @author Kumbirai 'Coach' Mundangepfupfu - 20 Dec 2012
 	 * 

@@ -142,10 +142,13 @@ public class MainView extends BorderPane {
 		list.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
 			public void changed(ObservableValue<? extends String> ov, String old_val, String new_val) {
 				System.out.printf("old_val = %s, new_val = %s\n", old_val, new_val);
-				if ("Welcome".equalsIgnoreCase(new_val)){
+				if ("Welcome".equalsIgnoreCase(new_val)) {
 					presenter.showSummary();
 				}
-				if ("Show all makes and models".equalsIgnoreCase(new_val)){
+				if ("Add a Car".equalsIgnoreCase(new_val)) {
+					presenter.showCarDetails(null);
+				}
+				if ("Show all makes and models".equalsIgnoreCase(new_val)) {
 					presenter.showSearchResults();
 				}
 			}

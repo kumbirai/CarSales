@@ -50,6 +50,7 @@ public class CarDetailPresenter {
 		this.view = view;
 		this.mainPresenter = mainPresenter;
 		this.service = service;
+		this.view.setPresenter(this);
 	}
 
 	/** Getter for the <code>view</code> attribute.
@@ -67,6 +68,7 @@ public class CarDetailPresenter {
 	 * @param carId
 	 */
 	public void show(final Long carId) {
+		System.out.printf("CarDetailPresenter#show(final Long carId) called with carId = %s\n", carId);
 		final Task<Car> searchTask = new Task<Car>() {
 			protected Car call() throws Exception {
 				return service.getCar(carId);
@@ -82,5 +84,33 @@ public class CarDetailPresenter {
 		});
 
 		new Thread(searchTask).start();
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 28 Dec 2012
+	 * 
+	 * save
+	 * @param myCar
+	 * 
+	 */
+	public void save(final Car myCar) {
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 28 Dec 2012
+	 * 
+	 * delete
+	 * 
+	 */
+	public void delete() {
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 28 Dec 2012
+	 * 
+	 * cancel
+	 * 
+	 */
+	public void cancel() {
 	}
 }

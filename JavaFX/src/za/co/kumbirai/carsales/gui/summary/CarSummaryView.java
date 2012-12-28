@@ -42,7 +42,7 @@ import za.co.kumbirai.carsales.StatisticType;
  *					
  */
 public class CarSummaryView extends GridPane {
-	private CarSummaryPresenter carSummaryPresenter;
+	private CarSummaryPresenter presenter;
 	private IntegerProperty carCount = new SimpleIntegerProperty(0);
 	private IntegerProperty manuCount = new SimpleIntegerProperty(0);
 	private DoubleProperty avgPrice = new SimpleDoubleProperty(0);
@@ -130,6 +130,6 @@ public class CarSummaryView extends GridPane {
 	 * @param carSummaryPresenter2
 	 */
 	public void setPresenter(CarSummaryPresenter carSummaryPresenter) {
-		this.carSummaryPresenter = carSummaryPresenter;
+		this.presenter = carSummaryPresenter;
 	}
 }

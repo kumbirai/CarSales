@@ -52,6 +52,7 @@ public class CarSearchPresenter {
 		this.view = view;
 		this.mainPresenter = mainPresenter;
 		this.service = service;
+		this.view.setPresenter(this);
 	}
 
 	/** Getter for the <code>view</code> attribute.
@@ -92,6 +93,7 @@ public class CarSearchPresenter {
 	 * 
 	 */
 	public void newCar() {
+		mainPresenter.showCarDetails(null);
 	}
 
 	/**
@@ -102,5 +104,7 @@ public class CarSearchPresenter {
 	 * @param id
 	 */
 	public void carSelected(Long id) {
+		System.out.printf("CarSearchPresenter#carSelected(Long id) called with id = %s\n", id);
+		mainPresenter.showCarDetails(id);
 	}
 }

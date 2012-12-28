@@ -184,6 +184,19 @@ public class SimpleCarSalesService implements CarSalesService {
 		return cars;
 	}
 
+	/* (non-Javadoc)
+	 * @see za.co.kumbirai.carsales.service.interfaces.CarSalesService#getCar(java.lang.Long)
+	 */
+	@Override
+	public Car getCar(Long carId) {
+		System.out.printf("SimpleCarSalesService#getCar(Long carId) called with carId = %s\n", carId);
+		for (Car car : getCarList()) {
+			if (car.getId().equals(carId))
+				return car;
+		}
+		return null;
+	}
+
 	/**
 	 * @author Kumbirai 'Coach' Mundangepfupfu - 19 Dec 2012
 	 * 

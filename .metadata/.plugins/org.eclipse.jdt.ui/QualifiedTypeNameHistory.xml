@@ -12,15 +12,11 @@
 <fullyQualifiedTypeName name="javafx.beans.property.DoubleProperty"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javafx.scene.control.TableView"/>
-<fullyQualifiedTypeName name="javafx.event.ActionEvent"/>
-<fullyQualifiedTypeName name="javafx.scene.control.Button"/>
 <fullyQualifiedTypeName name="javafx.geometry.Insets"/>
 <fullyQualifiedTypeName name="javafx.scene.control.TableColumn"/>
-<fullyQualifiedTypeName name="javafx.beans.value.ChangeListener"/>
 <fullyQualifiedTypeName name="za.co.kumbirai.carsales.gui.search.CarSearchPresenter"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javafx.stage.WindowEvent"/>
-<fullyQualifiedTypeName name="javafx.event.EventHandler"/>
 <fullyQualifiedTypeName name="javafx.scene.control.MenuBar"/>
 <fullyQualifiedTypeName name="javafx.scene.control.Menu"/>
 <fullyQualifiedTypeName name="javafx.scene.control.MenuItem"/>
@@ -29,4 +25,15 @@
 <fullyQualifiedTypeName name="za.co.kumbirai.carsales.model.CarModel"/>
 <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
 <fullyQualifiedTypeName name="za.co.kumbirai.carsales.gui.detail.CarDetailPresenter"/>
+<fullyQualifiedTypeName name="javafx.event.ActionEvent"/>
+<fullyQualifiedTypeName name="javafx.scene.control.Button"/>
+<fullyQualifiedTypeName name="javafx.scene.layout.Region"/>
+<fullyQualifiedTypeName name="javafx.scene.control.Control"/>
+<fullyQualifiedTypeName name="javafx.event.EventHandler"/>
+<fullyQualifiedTypeName name="javafx.beans.property.ObjectProperty"/>
+<fullyQualifiedTypeName name="javafx.beans.value.ChangeListener"/>
+<fullyQualifiedTypeName name="javafx.beans.Observable"/>
+<fullyQualifiedTypeName name="javafx.event.Event"/>
+<fullyQualifiedTypeName name="javafx.event.EventType"/>
+<fullyQualifiedTypeName name="za.co.kumbirai.carsales.validators.Validator"/>
 </qualifiedTypeNameHistroy>
