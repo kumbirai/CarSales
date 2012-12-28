@@ -1,0 +1,50 @@
+/**
+ * za.co.kumbirai.carsales.model<br>
+ * 
+ * <p><b>Title:</b> CarModel<br>
+ * <b>Description:</b> <br>
+ * <b>Copyright:</b> Copyright (c) 2012<br>
+ * <b>Company:</b> SSP</p>
+ * @author Kumbirai 'Coach' Mundangepfupfu
+ * @date 20 Dec 2012 3:02:14 PM
+ */
+package za.co.kumbirai.carsales.model;
+
+import java.math.BigDecimal;
+
+import za.co.kumbirai.carsales.entities.Manufacturer;
+
+/**
+ * <p><b>Purpose:</b><br>
+ * <br>
+ *
+ * Copyright Notice<br>
+ * ================<br>
+ * This file contains proprietary information.
+ * Copying or reproduction without prior written approval is prohibited.<br>
+ * Copyright (c) 2012<br>
+ * 
+ * <p><b>Title:</b> CarModel<br>
+ * <b>Description:</b> </p>
+ *
+ * @author Kumbirai 'Coach' Mundangepfupfu<br>
+ * @date 20 Dec 2012 3:02:14 PM<br>
+ * @version 1.0<br>
+ *
+ * <b>Revision:</b>
+ *					
+ */
+public class CarModel {
+	private Long id;
+	private String model;
+	private String information;
+	private int carYear;
+	private BigDecimal price;
+	private Double kilometers;
+
+	/**
+	 * 
+	 */
+	public CarModel() {
+	}
+}

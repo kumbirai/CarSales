@@ -1,0 +1,56 @@
+/**
+ * za.co.kumbirai.carsales.gui.search<br>
+ * 
+ * <p><b>Title:</b> CarSearchPresenter<br>
+ * <b>Description:</b> <br>
+ * <b>Copyright:</b> Copyright (c) 2012<br>
+ * <b>Company:</b> SSP</p>
+ * @author Kumbirai 'Coach' Mundangepfupfu
+ * @date 20 Dec 2012 3:28:37 PM
+ */
+package za.co.kumbirai.carsales.gui.search;
+
+import za.co.kumbirai.carsales.gui.main.MainPresenter;
+import za.co.kumbirai.carsales.service.interfaces.CarSalesService;
+
+/**
+ * <p><b>Purpose:</b><br>
+ * <br>
+ *
+ * Copyright Notice<br>
+ * ================<br>
+ * This file contains proprietary information.
+ * Copying or reproduction without prior written approval is prohibited.<br>
+ * Copyright (c) 2012<br>
+ * 
+ * <p><b>Title:</b> CarSearchPresenter<br>
+ * <b>Description:</b> </p>
+ *
+ * @author Kumbirai 'Coach' Mundangepfupfu<br>
+ * @date 20 Dec 2012 3:28:37 PM<br>
+ * @version 1.0<br>
+ *
+ * <b>Revision:</b>
+ *					
+ */
+public class CarSearchPresenter {
+	private MainPresenter mainPresenter;
+	private CarSearchView view;
+	private CarSalesService service;
+
+	/**
+	 * 
+	 */
+	public CarSearchPresenter(CarSearchView view, MainPresenter mainPresenter, CarSalesService service) {
+		this.view = view;
+		this.mainPresenter = mainPresenter;
+		this.service = service;
+	}
+
+	/** Getter for the <code>view</code> attribute.
+	 * @return CarSearchView - value of the attribute <code>view</code>.
+	 */
+	public CarSearchView getView() {
+		return this.view;
+	}
+}

@@ -1,0 +1,134 @@
+/**
+ * za.co.kumbirai.carsales.gui.search<br>
+ * 
+ * <p><b>Title:</b> CarSearchView<br>
+ * <b>Description:</b> <br>
+ * <b>Copyright:</b> Copyright (c) 2012<br>
+ * <b>Company:</b> SSP</p>
+ * @author Kumbirai 'Coach' Mundangepfupfu
+ * @date 20 Dec 2012 3:36:04 PM
+ */
+package za.co.kumbirai.carsales.gui.search;
+
+import java.util.List;
+
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.geometry.Insets;
+import javafx.scene.control.Button;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Priority;
+import javafx.scene.layout.VBox;
+import za.co.kumbirai.carsales.entities.Car;
+import za.co.kumbirai.carsales.model.CarModel;
+
+/**
+ * <p><b>Purpose:</b><br>
+ * <br>
+ *
+ * Copyright Notice<br>
+ * ================<br>
+ * This file contains proprietary information.
+ * Copying or reproduction without prior written approval is prohibited.<br>
+ * Copyright (c) 2012<br>
+ * 
+ * <p><b>Title:</b> CarSearchView<br>
+ * <b>Description:</b> </p>
+ *
+ * @author Kumbirai 'Coach' Mundangepfupfu<br>
+ * @date 20 Dec 2012 3:36:04 PM<br>
+ * @version 1.0<br>
+ *
+ * <b>Revision:</b>
+ *					
+ */
+public class CarSearchView extends VBox {
+	private CarSearchPresenter presenter;
+	private ObservableList<CarModel> carEntries;
+	private TableView<CarModel> table;
+
+	/**
+	 * 
+	 */
+	public CarSearchView() {
+		buildView();
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 20 Dec 2012
+	 * 
+	 * setCars
+	 * 
+	 * @param value
+	 */
+	public void setCars(List<Car> searchResults) {
+		carEntries = FXCollections.observableArrayList();
+		for (Car car : searchResults) {
+			carEntries.add(new CarModel(car));
+		}
+		if (table != null)
+			table.setItems(carEntries);
+	}
+
+	protected void buildView() {
+		setSpacing(10);
+		HBox menuBar = new HBox(10);
+
+		Button newButton = new Button("New");
+		newButton.setOnAction(new EventHandler<ActionEvent>() {
+			public void handle(ActionEvent event) {
+				presenter.newCar();
+			}
+		});
+
+		menuBar.getChildren().add(newButton);
+
+		getChildren().add(menuBar);
+
+		table = new TableView<CarModel>();
+
+		TableColumn<CarModel, String> manufacturerCol = new TableColumn<CarModel, String>("Manufacturer");
+		manufacturerCol.setCellValueFactory(new PropertyValueFactory("manufacturer"));
+		manufacturerCol.setPrefWidth(50);
+
+		TableColumn<CarModel, String> modelCol = new TableColumn<CarModel, String>("Model");
+		modelCol.setCellValueFactory(new PropertyValueFactory("model"));
+		modelCol.setPrefWidth(50);
+
+		TableColumn<CarModel, String> carYearCol = new TableColumn<CarModel, String>("Year");
+		carYearCol.setCellValueFactory(new PropertyValueFactory("carYear"));
+		carYearCol.setPrefWidth(50);
+
+		TableColumn<CarModel, String> kilometersCol = new TableColumn<CarModel, String>("Milage");
+		kilometersCol.setCellValueFactory(new PropertyValueFactory("kilometers"));
+		kilometersCol.setPrefWidth(50);
+
+		TableColumn<CarModel, String> priceCol = new TableColumn<CarModel, String>("Price");
+		priceCol.setCellValueFactory(new PropertyValueFactory("price"));
+		priceCol.setPrefWidth(50);
+
+		table.getColumns().setAll(manufacturerCol, modelCol, carYearCol, kilometersCol, priceCol);
+
+		table.getSelectionModel().selectedItemProperty().addListener(new ChangeListener() {
+			@Override
+			public void changed(ObservableValue observable, Object oldValue, Object newValue) {
+				CarModel car = (CarModel) newValue;
+				if (car != null) {
+					presenter.personSelected(car.getId());
+				}
+			}
+		});
+
+		BorderPane.setMargin(table, new Insets(10, 10, 10, 10));
+		VBox.setVgrow(table, Priority.ALWAYS);
+		getChildren().add(table);
+	}
+}

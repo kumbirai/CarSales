@@ -1,0 +1,84 @@
+/**
+ * za.co.kumbirai.carsales.gui.summary<br>
+ * 
+ * <p><b>Title:</b> CarSummaryView<br>
+ * <b>Description:</b> <br>
+ * <b>Copyright:</b> Copyright (c) 2012<br>
+ * <b>Company:</b> SSP</p>
+ * @author Kumbirai 'Coach' Mundangepfupfu
+ * @date 20 Dec 2012 12:15:24 PM
+ */
+package za.co.kumbirai.carsales.gui.summary;
+
+import java.util.Map;
+
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.scene.control.Label;
+import javafx.scene.layout.GridPane;
+import javafx.scene.text.Text;
+import za.co.kumbirai.carsales.StatisticType;
+
+/**
+ * <p><b>Purpose:</b><br>
+ * <br>
+ *
+ * Copyright Notice<br>
+ * ================<br>
+ * This file contains proprietary information.
+ * Copying or reproduction without prior written approval is prohibited.<br>
+ * Copyright (c) 2012<br>
+ * 
+ * <p><b>Title:</b> CarSummaryView<br>
+ * <b>Description:</b> </p>
+ *
+ * @author Kumbirai 'Coach' Mundangepfupfu<br>
+ * @date 20 Dec 2012 12:15:24 PM<br>
+ * @version 1.0<br>
+ *
+ * <b>Revision:</b>
+ *					
+ */
+public class CarSummaryView extends GridPane {
+	private CarSummaryPresenter carSummaryPresenter;
+	private Map<StatisticType, Double> stats;
+	private IntegerProperty carCount = new SimpleIntegerProperty(0);
+
+	/**
+	 * 
+	 */
+	public CarSummaryView() {
+		buildView();
+	}
+
+	protected void buildView() {
+		setHgap(10);
+		setVgap(10);
+		int row = 0;
+
+		add(new Label("Total number of cars:"), 0, row);
+		Text carText = new Text();
+		carText.textProperty().bind(carCount.asString());
+		add(carText, 1, row);
+
+		row++;
+	}
+
+	/** Setter for the <code>stats</code> attribute.
+	 * @param Map<StatisticType,Double> stats
+	 */
+	public void setStats(Map<StatisticType, Double> stats) {
+		this.stats = stats;
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 20 Dec 2012
+	 * 
+	 * setPresenter
+	 * 
+	 * @param carSummaryPresenter2
+	 */
+	public void setPresenter(CarSummaryPresenter carSummaryPresenter) {
+		this.carSummaryPresenter = carSummaryPresenter;
+	}
+}

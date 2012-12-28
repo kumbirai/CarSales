@@ -1,0 +1,81 @@
+/**
+ * za.co.kumbirai.carsales.gui.detail<br>
+ * 
+ * <p><b>Title:</b> CarDetailView<br>
+ * <b>Description:</b> <br>
+ * <b>Copyright:</b> Copyright (c) 2012<br>
+ * <b>Company:</b> SSP</p>
+ * @author Kumbirai 'Coach' Mundangepfupfu
+ * @date 24 Dec 2012 11:52:25 AM
+ */
+package za.co.kumbirai.carsales.gui.detail;
+
+import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
+import za.co.kumbirai.carsales.entities.Car;
+
+/**
+ * <p><b>Purpose:</b><br>
+ * <br>
+ *
+ * Copyright Notice<br>
+ * ================<br>
+ * This file contains proprietary information.
+ * Copying or reproduction without prior written approval is prohibited.<br>
+ * Copyright (c) 2012<br>
+ * 
+ * <p><b>Title:</b> CarDetailView<br>
+ * <b>Description:</b> </p>
+ *
+ * @author Kumbirai 'Coach' Mundangepfupfu<br>
+ * @date 24 Dec 2012 11:52:25 AM<br>
+ * @version 1.0<br>
+ *
+ * <b>Revision:</b>
+ *					
+ */
+public class CarDetailView extends GridPane {
+	private CarDetailPresenter presenter;
+	private Long carId;
+	private TextField manufacturerField;
+	private TextField modelField;
+	private TextField carYearField;
+	private TextField priceField;
+	private TextField kilometersField;
+	private TextField informationField;
+
+	/**
+	 * 
+	 */
+	public CarDetailView() {
+	}
+
+	public Car getCar() {
+		Car car = new Car();
+
+		return car;
+	}
+
+	public void setCar(Car car) {
+		if (car != null) {
+			carId = car.getId();
+			manufacturerField.setText(car.getManufacturer().getManufacturer());
+			modelField.setText(car.getModel());
+			carYearField.setText(car.getCarYear());
+			priceField.setText(car.getPrice());
+			kilometersField.setText(car.getKilometers());
+			informationField.setText(car.getInformation());
+		} else {
+			carId = 0L;
+			manufacturerField.setText("");
+			modelField.setText("");
+			carYearField.setText("");
+			priceField.setText("");
+			kilometersField.setText("");
+			informationField.setText("");
+		}
+	}
+
+	protected void buildView() {
+	}
+}
