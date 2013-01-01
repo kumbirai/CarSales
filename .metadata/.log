@@ -2867,3 +2867,48 @@ Java Model Exception: Java Model Status [C:\Program Files\Java\jre7\lib\rt.jar i
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1006 2012-12-28 14:28:19.484
 !MESSAGE C:\Program Files\Java\jre7\lib\rt.jar is not on its project's build path
+!SESSION 2012-12-28 15:53:04.015 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2012-12-28 15:53:07.250
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2012-12-28 15:53:07.250
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY org.eclipse.jdt.core 4 0 2012-12-28 15:54:06.343
+!MESSAGE Invalid ZIP archive: lib/eclipselink.jar [in Cars]
+
+!ENTRY org.eclipse.jdt.core 4 0 2012-12-28 15:54:06.437
+!MESSAGE Invalid ZIP archive: lib/javax.persistence_2.0.4.v201112161009.jar [in Cars]
+
+!ENTRY org.eclipse.jdt.core 4 0 2012-12-28 15:54:06.437
+!MESSAGE Invalid ZIP archive: lib/derby.jar [in Cars]
+!SESSION 2012-12-28 15:59:33.328 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2012-12-28 15:59:34.562
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2012-12-28 15:59:34.562
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+!SESSION 2013-01-01 21:01:20.875 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-01-01 21:01:24.703
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-01-01 21:01:24.703
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml

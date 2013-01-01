@@ -82,4 +82,14 @@ public interface CarSalesService {
 	 * @return
 	 */
 	public Car getCar(Long carId);
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 28 Dec 2012
+	 * 
+	 * saveCar
+	 * 
+	 * @param car
+	 * @return
+	 */
+	public Car saveCar(Car car);
 }

@@ -217,6 +217,13 @@ public class CarModel {
 		priceProperty().set(price);
 	}
 
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 20 Dec 2012
+	 * 
+	 * priceProperty
+	 * 
+	 * @return
+	 */
 	public DoubleProperty priceProperty() {
 		if (price == null)
 			price = new SimpleDoubleProperty(this, "price");
@@ -237,6 +244,13 @@ public class CarModel {
 		kilometersProperty().set(kilometers);
 	}
 
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 20 Dec 2012
+	 * 
+	 * kilometersProperty
+	 * 
+	 * @return
+	 */
 	public DoubleProperty kilometersProperty() {
 		if (kilometers == null)
 			kilometers = new SimpleDoubleProperty(this, "kilometers");

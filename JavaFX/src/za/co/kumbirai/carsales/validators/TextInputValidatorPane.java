@@ -43,7 +43,6 @@ public class TextInputValidatorPane<C extends TextInputControl> extends Validato
 		public void invalidated(Observable o) {
 			final Validator v = getValidator();
 			final ValidationResult result = v != null ? v.validate(getContent()) : new ValidationResult("", ValidationResult.Type.SUCCESS);
-
 			handleValidationResult(result);
 		}
 	};

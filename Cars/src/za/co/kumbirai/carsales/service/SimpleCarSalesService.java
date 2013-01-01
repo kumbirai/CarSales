@@ -197,6 +197,33 @@ public class SimpleCarSalesService implements CarSalesService {
 		return null;
 	}
 
+	/* (non-Javadoc)
+	 * @see za.co.kumbirai.carsales.service.interfaces.CarSalesService#saveCar(za.co.kumbirai.carsales.entities.Car)
+	 */
+	@Override
+	public Car saveCar(Car car) {
+		String name = car.getManufacturer().getManufacturer();
+		for (Manufacturer man : manufacturers) {
+			if (man.getManufacturer().equalsIgnoreCase(name)) {
+				if (car.getId() == null) {
+					man.addCar(car);
+					return car;
+				} else {
+					for (Car c : man.getCars()) {
+						if (c.getId().equals(car.getId())) {
+							man.getCars().remove(c);
+							man.getCars().add(car);
+							return car;
+						}
+					}
+				}
+			}
+		}
+		Manufacturer man = new Manufacturer(name, car);
+		manufacturers.add(man);
+		return car;
+	}
+
 	/**
 	 * @author Kumbirai 'Coach' Mundangepfupfu - 19 Dec 2012
 	 * 

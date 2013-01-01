@@ -68,7 +68,6 @@ public class CarDetailPresenter {
 	 * @param carId
 	 */
 	public void show(final Long carId) {
-		System.out.printf("CarDetailPresenter#show(final Long carId) called with carId = %s\n", carId);
 		final Task<Car> searchTask = new Task<Car>() {
 			protected Car call() throws Exception {
 				return service.getCar(carId);
@@ -93,7 +92,23 @@ public class CarDetailPresenter {
 	 * @param myCar
 	 * 
 	 */
-	public void save(final Car myCar) {
+	public void save(final Car car) {
+		final Task<Car> saveTask = new Task<Car>() {
+			protected Car call() throws Exception {
+				return service.saveCar(car);
+			}
+		};
+
+		saveTask.stateProperty().addListener(new ChangeListener<Worker.State>() {
+			public void changed(ObservableValue<? extends Worker.State> source, Worker.State oldState, Worker.State newState) {
+				if (newState.equals(Worker.State.SUCCEEDED)) {
+					//view.setCar(saveTask.getValue());
+					mainPresenter.showSearchResults();
+				}
+			}
+		});
+
+		new Thread(saveTask).start();
 	}
 
 	/**

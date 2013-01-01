@@ -17,6 +17,7 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
@@ -54,7 +55,7 @@ public class CarDetailView extends GridPane {
 	private TextField carYearField;
 	private TextField priceField;
 	private TextField kilometersField;
-	private TextField informationField;
+	private TextArea informationField;
 
 	/**
 	 * 
@@ -95,6 +96,7 @@ public class CarDetailView extends GridPane {
 		if (car != null) {
 			carId = car.getId();
 			manufacturerField.setText(car.getManufacturer().getManufacturer());
+			manufacturerField.setDisable(true);
 			modelField.setText(car.getModel());
 			carYearField.setText(car.getCarYear().toString());
 			priceField.setText(car.getPrice().toString());
@@ -126,6 +128,7 @@ public class CarDetailView extends GridPane {
 	 */
 	protected void buildView() {
 		String styleCss = CarSalesMain.class.getResource("styles.css").toExternalForm();
+		//String styleCss = CarDetailView.class.getResource("Validators.css").toExternalForm();
 		setHgap(15);
 		setVgap(10);
 		int row = 0;
@@ -157,13 +160,16 @@ public class CarDetailView extends GridPane {
 		carYearPane.setContent(carYearField);
 		carYearPane.setValidator(new Validator<TextField>() {
 			public ValidationResult validate(TextField control) {
+				System.out.printf("carYearPane validate text field content: %s\n", control.getText());
 				try {
 					String text = control.getText();
 					if (text == null || text.trim().equals(""))
 						return null;
 					double d = Double.parseDouble(text);
-					if (d < 1000 || d > 9999) {
-						return new ValidationResult("Should be greater than 1000", ValidationResult.Type.WARNING);
+					if (d < 1996 || d > 2013) {
+						ValidationResult result = new ValidationResult("Should be between 1996 and 2013", ValidationResult.Type.WARNING);
+						System.out.printf("validation message = %s, validation type = %s\n", result.getMessage(), result.getType());
+						return new ValidationResult("Should be between 1996 and 2013", ValidationResult.Type.WARNING);
 					}
 					return null; // succeeded
 				} catch (Exception e) {
@@ -196,8 +202,9 @@ public class CarDetailView extends GridPane {
 		row++;
 
 		add(new Label("Information"), 0, row);
-		informationField = new TextField();
+		informationField = new TextArea();
 		informationField.setPrefColumnCount(20);
+		informationField.setPrefRowCount(4);
 		informationField.setPromptText("Information");
 		informationField.setMaxHeight(TextField.USE_PREF_SIZE);
 		add(informationField, 1, row);
