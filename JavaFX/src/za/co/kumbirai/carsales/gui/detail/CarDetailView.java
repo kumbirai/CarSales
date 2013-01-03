@@ -105,6 +105,7 @@ public class CarDetailView extends GridPane {
 		} else {
 			carId = null;
 			manufacturerField.setText("");
+			manufacturerField.setDisable(false);
 			modelField.setText("");
 			carYearField.setText("");
 			priceField.setText("");
@@ -128,7 +129,6 @@ public class CarDetailView extends GridPane {
 	 */
 	protected void buildView() {
 		String styleCss = CarSalesMain.class.getResource("styles.css").toExternalForm();
-		//String styleCss = CarDetailView.class.getResource("Validators.css").toExternalForm();
 		setHgap(15);
 		setVgap(10);
 		int row = 0;
@@ -247,7 +247,7 @@ public class CarDetailView extends GridPane {
 	 * saveButtonClicked
 	 * 
 	 */
-	private void saveButtonClicked() {
+	protected void saveButtonClicked() {
 		String manufacturer = "";
 		String model = "";
 		String info = "";
@@ -282,6 +282,7 @@ public class CarDetailView extends GridPane {
 		if (valid) {
 			// create a car object from validated data.
 			Car myCar = new Car(manufacturer, model, info);
+			myCar.setId(carId);
 			myCar.setKilometers(kilometers);
 			myCar.setPrice(price);
 			myCar.setCarYear(year);
@@ -299,7 +300,7 @@ public class CarDetailView extends GridPane {
 	 * @param distance
 	 * @return
 	 */
-	private boolean validateKilometers(String distance) {
+	protected boolean validateKilometers(String distance) {
 		boolean valid = false;
 		String rem;
 		StringTokenizer tokens = new StringTokenizer(distance, "."); // look for decimal point

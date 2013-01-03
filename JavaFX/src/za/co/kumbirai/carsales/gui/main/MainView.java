@@ -20,6 +20,9 @@ import javafx.scene.control.ListView;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
+import javafx.scene.control.Toggle;
+import javafx.scene.control.ToggleButton;
+import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 
@@ -122,6 +125,13 @@ public class MainView extends BorderPane {
 
 	private String selected = "Welcome";
 
+	/** Setter for the <code>selected</code> attribute.
+	 * @param String selected
+	 */
+	public void setSelected(String selected) {
+		this.selected = selected;
+	}
+
 	/**
 	 * @author Kumbirai 'Coach' Mundangepfupfu - 21 Dec 2012
 	 * 
@@ -134,8 +144,7 @@ public class MainView extends BorderPane {
 		ObservableList<String> data = FXCollections.observableArrayList("Welcome", "Add a Car", "Show all makes and models", "Search on age",
 				"Search on Price and Distance traveled");
 		VBox left = new VBox(5);
-		//left.setMaxWidth(200);
-		left.getChildren().add(list);
+		//left.getChildren().add(list);
 
 		list.setItems(data);
 		list.getSelectionModel().select(this.selected);
@@ -153,6 +162,55 @@ public class MainView extends BorderPane {
 				}
 			}
 		});
+		Double btnWidth = new Double(205);
+
+		ToggleButton tb1 = new ToggleButton("Welcome");
+		tb1.setMaxWidth(btnWidth);
+		ToggleButton tb2 = new ToggleButton("Add a Car");
+		tb2.setMaxWidth(btnWidth);
+		ToggleButton tb3 = new ToggleButton("Show all makes and models");
+		tb3.setMaxWidth(btnWidth);
+		ToggleButton tb4 = new ToggleButton("Search on age");
+		tb4.setMaxWidth(btnWidth);
+		ToggleButton tb5 = new ToggleButton("Search on Price and Distance traveled");
+		tb5.setMaxWidth(btnWidth);
+		ToggleGroup group = new ToggleGroup();
+		tb1.setToggleGroup(group);
+		tb2.setToggleGroup(group);
+		tb3.setToggleGroup(group);
+		tb4.setToggleGroup(group);
+		tb5.setToggleGroup(group);
+		group.selectedToggleProperty().addListener(new ChangeListener<Toggle>() {
+			@Override
+			public void changed(ObservableValue<? extends Toggle> observable, Toggle oldValue, Toggle selectedToggle) {
+				String selected = new String();
+				if (selectedToggle != null) {
+					selected = ((ToggleButton) selectedToggle).getText();
+				} else {
+					//label.setText("...");
+					//if (oldValue != null) {
+					//selected = ((ToggleButton) selectedToggle).getText();
+					//}
+				}
+				if (presenter != null) {
+					if ("Welcome".equalsIgnoreCase(selected)) {
+						presenter.showSummary();
+					}
+					if ("Add a Car".equalsIgnoreCase(selected)) {
+						presenter.showCarDetails(null);
+					}
+					if ("Show all makes and models".equalsIgnoreCase(selected)) {
+						presenter.showSearchResults();
+					}
+				}
+			}
+		});
+
+		// select the first button to start with
+
+		group.selectToggle(tb1);
+
+		left.getChildren().addAll(tb1, tb2, tb3, tb4, tb5);
 
 		return left;
 	}

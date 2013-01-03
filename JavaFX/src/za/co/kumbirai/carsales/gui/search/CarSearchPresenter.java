@@ -104,7 +104,6 @@ public class CarSearchPresenter {
 	 * @param id
 	 */
 	public void carSelected(Long id) {
-		System.out.printf("CarSearchPresenter#carSelected(Long id) called with id = %s\n", id);
 		mainPresenter.showCarDetails(id);
 	}
 }

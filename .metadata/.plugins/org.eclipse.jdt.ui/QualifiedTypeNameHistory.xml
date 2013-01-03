@@ -38,4 +38,5 @@
 <fullyQualifiedTypeName name="za.co.kumbirai.carsales.validators.Validator"/>
 <fullyQualifiedTypeName name="javafx.scene.control.TextArea"/>
 <fullyQualifiedTypeName name="za.co.kumbirai.carsales.entities.Manufacturer"/>
+<fullyQualifiedTypeName name="javafx.scene.Group"/>
 </qualifiedTypeNameHistroy>

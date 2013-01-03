@@ -82,7 +82,7 @@ public class CarSummaryView extends GridPane {
 
 		row++;
 
-		add(new Label("Average distance:"), 0, row);
+		add(new Label("Average milage:"), 0, row);
 		Text avgDistText = new Text();
 		avgDistText.textProperty().bind(avgDist.asString("%,.0f"));
 		add(avgDistText, 1, row);

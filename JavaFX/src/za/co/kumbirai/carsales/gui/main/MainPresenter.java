@@ -99,7 +99,15 @@ public class MainPresenter {
 		view.setContent(carSearchPresenter.getView());
 	}
 
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 27 Dec 2012
+	 * 
+	 * showCarDetails
+	 * 
+	 * @param carId
+	 */
 	public void showCarDetails(Long carId) {
+		System.out.printf("MainPresenter#showCarDetails called with carId = %s\n", carId);
 		carDetailPresenter.show(carId);
 		view.setContent(carDetailPresenter.getView());
 	}

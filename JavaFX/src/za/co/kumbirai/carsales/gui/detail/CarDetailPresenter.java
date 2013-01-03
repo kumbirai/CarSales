@@ -127,5 +127,6 @@ public class CarDetailPresenter {
 	 * 
 	 */
 	public void cancel() {
+		mainPresenter.showSearchResults();
 	}
 }

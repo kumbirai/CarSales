@@ -189,7 +189,6 @@ public class SimpleCarSalesService implements CarSalesService {
 	 */
 	@Override
 	public Car getCar(Long carId) {
-		System.out.printf("SimpleCarSalesService#getCar(Long carId) called with carId = %s\n", carId);
 		for (Car car : getCarList()) {
 			if (car.getId().equals(carId))
 				return car;
@@ -207,12 +206,14 @@ public class SimpleCarSalesService implements CarSalesService {
 			if (man.getManufacturer().equalsIgnoreCase(name)) {
 				if (car.getId() == null) {
 					man.addCar(car);
+					saveManufacturer(man);
 					return car;
 				} else {
 					for (Car c : man.getCars()) {
 						if (c.getId().equals(car.getId())) {
 							man.getCars().remove(c);
 							man.getCars().add(car);
+							saveManufacturer(man);
 							return car;
 						}
 					}
@@ -220,8 +221,31 @@ public class SimpleCarSalesService implements CarSalesService {
 			}
 		}
 		Manufacturer man = new Manufacturer(name, car);
-		manufacturers.add(man);
+		saveManufacturer(man);
 		return car;
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 03 Jan 2013
+	 * 
+	 * saveManufacturer
+	 * 
+	 * @param man
+	 */
+	protected void saveManufacturer(Manufacturer man) {
+		initEntityManager();
+		em.getTransaction().begin();
+		Manufacturer entity;
+		entity = em.find(Manufacturer.class, man.getManufacturer());
+		if (entity != null) {
+			entity.setCars(man.getCars());
+			em.merge(entity);
+		} else {
+			em.persist(man);
+		}
+		em.getTransaction().commit();
+		closeEntityManager();
+		loadCars();
 	}
 
 	/**

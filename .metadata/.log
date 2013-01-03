@@ -2912,3 +2912,1589 @@ Command-line arguments:  -os win32 -ws win32 -arch x86
 
 !ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-01-01 21:01:24.703
 !MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+!SESSION 2013-01-03 11:39:33.345 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-01-03 11:39:39.361
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-01-03 11:39:39.376
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-01-03 11:42:07.533
+!MESSAGE Invalid ZIP archive: lib/eclipselink.jar [in Cars]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-01-03 11:42:07.908
+!MESSAGE Invalid ZIP archive: lib/javax.persistence_2.0.4.v201112161009.jar [in Cars]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-01-03 11:42:07.908
+!MESSAGE Invalid ZIP archive: lib/derby.jar [in Cars]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 12:42:35.345
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for set(long) {key=Ljavafx/beans/value/WritableLongValue;.set(J)V} [in WritableLongValue [in WritableLongValue.class [in javafx.beans.value [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 12:42:35.423
+!MESSAGE Unknown javadoc format for set(long) {key=Ljavafx/beans/value/WritableLongValue;.set(J)V} [in WritableLongValue [in WritableLongValue.class [in javafx.beans.value [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 12:42:36.892
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for get() {key=Ljavafx/beans/value/WritableLongValue;.get()J} [in WritableLongValue [in WritableLongValue.class [in javafx.beans.value [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 12:42:36.892
+!MESSAGE Unknown javadoc format for get() {key=Ljavafx/beans/value/WritableLongValue;.get()J} [in WritableLongValue [in WritableLongValue.class [in javafx.beans.value [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 12:44:08.423
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for DoubleProperty {key=Ljavafx/beans/property/DoubleProperty;} [in DoubleProperty.class [in javafx.beans.property [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 12:44:08.423
+!MESSAGE Unknown javadoc format for DoubleProperty {key=Ljavafx/beans/property/DoubleProperty;} [in DoubleProperty.class [in javafx.beans.property [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 12:46:46.064
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for equals(java.lang.Object) {key=Ljava/lang/Long;.equals(Ljava/lang/Object;)Z} [in Long [in Long.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 12:46:46.064
+!MESSAGE Unknown javadoc format for equals(java.lang.Object) {key=Ljava/lang/Long;.equals(Ljava/lang/Object;)Z} [in Long [in Long.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 12:50:34.939
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for stateProperty() {key=Ljavafx/concurrent/Task<Lza/co/kumbirai/carsales/entities/Car;>;.stateProperty()Ljavafx/beans/property/ReadOnlyObjectProperty<Ljavafx/concurrent/Worker$State;>;} [in Task [in Task.class [in javafx.concurrent [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 12:50:34.939
+!MESSAGE Unknown javadoc format for stateProperty() {key=Ljavafx/concurrent/Task<Lza/co/kumbirai/carsales/entities/Car;>;.stateProperty()Ljavafx/beans/property/ReadOnlyObjectProperty<Ljavafx/concurrent/Worker$State;>;} [in Task [in Task.class [in javafx.concurrent [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 12:50:53.064
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for equals(java.lang.Object) {key=Ljava/lang/Enum<Ljavafx/concurrent/Worker<>.State;>;.equals(Ljava/lang/Object;)Z} [in Enum [in Enum.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 12:50:53.064
+!MESSAGE Unknown javadoc format for equals(java.lang.Object) {key=Ljava/lang/Enum<Ljavafx/concurrent/Worker<>.State;>;.equals(Ljava/lang/Object;)Z} [in Enum [in Enum.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 12:58:05.626
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for addListener(javafx.beans.value.ChangeListener<? super T>) {key=Ljavafx/beans/value/ObservableValue<Ljavafx/concurrent/Worker<>.State;>;.addListener(Ljavafx/beans/value/ChangeListener<-Ljavafx/concurrent/Worker$State;>;)V} [in ObservableValue [in ObservableValue.class [in javafx.beans.value [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 12:58:05.626
+!MESSAGE Unknown javadoc format for addListener(javafx.beans.value.ChangeListener<? super T>) {key=Ljavafx/beans/value/ObservableValue<Ljavafx/concurrent/Worker<>.State;>;.addListener(Ljavafx/beans/value/ChangeListener<-Ljavafx/concurrent/Worker$State;>;)V} [in ObservableValue [in ObservableValue.class [in javafx.beans.value [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 12:59:39.501
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for List {key=Ljava/util/List<Lza/co/kumbirai/carsales/entities/Car;>;} [in List.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 12:59:39.517
+!MESSAGE Unknown javadoc format for List {key=Ljava/util/List<Lza/co/kumbirai/carsales/entities/Car;>;} [in List.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:01:08.751
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for equalsIgnoreCase(java.lang.String) {key=Ljava/lang/String;.equalsIgnoreCase(Ljava/lang/String;)Z} [in String [in String.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:01:08.751
+!MESSAGE Unknown javadoc format for equalsIgnoreCase(java.lang.String) {key=Ljava/lang/String;.equalsIgnoreCase(Ljava/lang/String;)Z} [in String [in String.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:10:06.439
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Exception {key=Ljava/lang/Exception;} [in Exception.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:10:06.439
+!MESSAGE Unknown javadoc format for Exception {key=Ljava/lang/Exception;} [in Exception.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:14:35.986
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Long {key=Ljava/lang/Long;} [in Long.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:14:35.986
+!MESSAGE Unknown javadoc format for Long {key=Ljava/lang/Long;} [in Long.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:14:56.095
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for out [in System [in System.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:104)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:123)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:14:56.095
+!MESSAGE Unknown javadoc format for out [in System [in System.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:14:57.079
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for out [in System [in System.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:104)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:123)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:14:57.079
+!MESSAGE Unknown javadoc format for out [in System [in System.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:15:08.689
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for append(char)#2 [in PrintStream [in PrintStream.class [in java.io [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:15:08.689
+!MESSAGE Unknown javadoc format for append(char)#2 [in PrintStream [in PrintStream.class [in java.io [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:15:08.798
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for println(java.lang.String) [in PrintStream [in PrintStream.class [in java.io [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:15:08.798
+!MESSAGE Unknown javadoc format for println(java.lang.String) [in PrintStream [in PrintStream.class [in java.io [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:15:09.001
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for print(boolean) [in PrintStream [in PrintStream.class [in java.io [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:15:09.001
+!MESSAGE Unknown javadoc format for print(boolean) [in PrintStream [in PrintStream.class [in java.io [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:15:09.470
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for print(boolean) [in PrintStream [in PrintStream.class [in java.io [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:15:09.470
+!MESSAGE Unknown javadoc format for print(boolean) [in PrintStream [in PrintStream.class [in java.io [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:18:21.329
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for SUCCEEDED {key=Ljavafx/concurrent/Worker$State;.SUCCEEDED)Ljavafx/concurrent/Worker<>.State;} [in State [in Worker$State.class [in javafx.concurrent [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:104)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:123)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:18:21.329
+!MESSAGE Unknown javadoc format for SUCCEEDED {key=Ljavafx/concurrent/Worker$State;.SUCCEEDED)Ljavafx/concurrent/Worker<>.State;} [in State [in Worker$State.class [in javafx.concurrent [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:25:38.470
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for equals(java.lang.Object) {key=Ljava/lang/Long;.equals(Ljava/lang/Object;)Z} [in Long [in Long.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:25:38.470
+!MESSAGE Unknown javadoc format for equals(java.lang.Object) {key=Ljava/lang/Long;.equals(Ljava/lang/Object;)Z} [in Long [in Long.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:26:02.642
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for remove(java.lang.Object) {key=Ljava/util/List<Lza/co/kumbirai/carsales/entities/Car;>;.remove(Ljava/lang/Object;)Z} [in List [in List.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:26:02.642
+!MESSAGE Unknown javadoc format for remove(java.lang.Object) {key=Ljava/util/List<Lza/co/kumbirai/carsales/entities/Car;>;.remove(Ljava/lang/Object;)Z} [in List [in List.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:35:11.673
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for USE_PREF_SIZE {key=Ljavafx/scene/control/Control;.USE_PREF_SIZE)D} [in Control [in Control.class [in javafx.scene.control [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getFieldDoc(JavadocContents.java:104)
+	at org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:123)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:35:11.673
+!MESSAGE Unknown javadoc format for USE_PREF_SIZE {key=Ljavafx/scene/control/Control;.USE_PREF_SIZE)D} [in Control [in Control.class [in javafx.scene.control [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:35:23.267
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for equals(java.lang.Object) [in Object [in Object.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:35:23.267
+!MESSAGE Unknown javadoc format for equals(java.lang.Object) [in Object [in Object.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:41:13.970
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Double {key=Ljava/lang/Double;} [in Double.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:41:13.970
+!MESSAGE Unknown javadoc format for Double {key=Ljava/lang/Double;} [in Double.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:41:34.814
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for setValue(java.lang.Number) {key=Ljavafx/beans/property/DoubleProperty;.setValue(Ljava/lang/Number;)V} [in DoubleProperty [in DoubleProperty.class [in javafx.beans.property [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:41:34.814
+!MESSAGE Unknown javadoc format for setValue(java.lang.Number) {key=Ljavafx/beans/property/DoubleProperty;.setValue(Ljava/lang/Number;)V} [in DoubleProperty [in DoubleProperty.class [in javafx.beans.property [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:41:53.267
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for toString() {key=Ljava/lang/Integer;.toString()Ljava/lang/String;} [in Integer [in Integer.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:41:53.267
+!MESSAGE Unknown javadoc format for toString() {key=Ljava/lang/Integer;.toString()Ljava/lang/String;} [in Integer [in Integer.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:46:01.173
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getText() {key=Ljavafx/scene/control/TextInputControl;.getText()Ljava/lang/String;} [in TextInputControl [in TextInputControl.class [in javafx.scene.control [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:46:01.173
+!MESSAGE Unknown javadoc format for getText() {key=Ljavafx/scene/control/TextInputControl;.getText()Ljava/lang/String;} [in TextInputControl [in TextInputControl.class [in javafx.scene.control [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:46:06.173
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:46:06.173
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:46:25.027
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for hasMoreTokens() {key=Ljava/util/StringTokenizer;.hasMoreTokens()Z} [in StringTokenizer [in StringTokenizer.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:46:25.027
+!MESSAGE Unknown javadoc format for hasMoreTokens() {key=Ljava/util/StringTokenizer;.hasMoreTokens()Z} [in StringTokenizer [in StringTokenizer.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:46:30.074
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for StringTokenizer [in StringTokenizer.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:46:30.074
+!MESSAGE Unknown javadoc format for StringTokenizer [in StringTokenizer.class [in java.util [in C:\Program Files\Java\jre7\lib\rt.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:47:06.484
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for setText(java.lang.String) {key=Ljavafx/scene/control/TextInputControl;.setText(Ljava/lang/String;)V} [in TextInputControl [in TextInputControl.class [in javafx.scene.control [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:47:06.484
+!MESSAGE Unknown javadoc format for setText(java.lang.String) {key=Ljavafx/scene/control/TextInputControl;.setText(Ljava/lang/String;)V} [in TextInputControl [in TextInputControl.class [in javafx.scene.control [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:48:56.125
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for TableColumn(java.lang.String) {key=Ljavafx/scene/control/TableColumn<Lza/co/kumbirai/carsales/model/CarModel;Ljava/lang/String;>;.(Ljava/lang/String;)V} [in TableColumn [in TableColumn.class [in javafx.scene.control [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:48:56.125
+!MESSAGE Unknown javadoc format for TableColumn(java.lang.String) {key=Ljavafx/scene/control/TableColumn<Lza/co/kumbirai/carsales/model/CarModel;Ljava/lang/String;>;.(Ljava/lang/String;)V} [in TableColumn [in TableColumn.class [in javafx.scene.control [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:51:38.862
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for setText(java.lang.String) {key=Ljavafx/scene/control/TextInputControl;.setText(Ljava/lang/String;)V} [in TextInputControl [in TextInputControl.class [in javafx.scene.control [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:51:38.862
+!MESSAGE Unknown javadoc format for setText(java.lang.String) {key=Ljavafx/scene/control/TextInputControl;.setText(Ljava/lang/String;)V} [in TextInputControl [in TextInputControl.class [in javafx.scene.control [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:52:48.330
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for printf(java.lang.String, java.lang.Object[]) {key=Ljava/io/PrintStream;.printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;} [in PrintStream [in PrintStream.class [in java.io [in C:\Program Files\Java\jre7\lib\rt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:52:48.330
+!MESSAGE Unknown javadoc format for printf(java.lang.String, java.lang.Object[]) {key=Ljava/io/PrintStream;.printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;} [in PrintStream [in PrintStream.class [in java.io [in C:\Program Files\Java\jre7\lib\rt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 13:55:14.164
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getStyleClass() {key=Ljavafx/scene/Node;.getStyleClass()Ljavafx/collections/ObservableList<Ljava/lang/String;>;} [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 13:55:14.164
+!MESSAGE Unknown javadoc format for getStyleClass() {key=Ljavafx/scene/Node;.getStyleClass()Ljavafx/collections/ObservableList<Ljava/lang/String;>;} [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:04:06.126
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for ListView [in ListView.class [in javafx.scene.control [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:639)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2013-01-03 14:04:06.126
+!MESSAGE Timed out while retrieving the attached javadoc for ListView [in ListView.class [in javafx.scene.control [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]] 
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:14.423
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for addEventFilter(javafx.event.EventType<T>, javafx.event.EventHandler<? super T>) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:14.423
+!MESSAGE Unknown javadoc format for addEventFilter(javafx.event.EventType<T>, javafx.event.EventHandler<? super T>) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:18.798
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for addEventHandler(javafx.event.EventType<T>, javafx.event.EventHandler<? super T>) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:18.798
+!MESSAGE Unknown javadoc format for addEventHandler(javafx.event.EventType<T>, javafx.event.EventHandler<? super T>) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:19.126
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for autosize() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:19.126
+!MESSAGE Unknown javadoc format for autosize() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:19.267
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for blendModeProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:19.267
+!MESSAGE Unknown javadoc format for blendModeProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:19.439
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for boundsInLocalProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:19.439
+!MESSAGE Unknown javadoc format for boundsInLocalProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:19.595
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for boundsInParentProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:19.595
+!MESSAGE Unknown javadoc format for boundsInParentProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:19.751
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for buildEventDispatchChain(javafx.event.EventDispatchChain) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:19.751
+!MESSAGE Unknown javadoc format for buildEventDispatchChain(javafx.event.EventDispatchChain) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:19.923
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for cacheHintProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:19.923
+!MESSAGE Unknown javadoc format for cacheHintProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:20.079
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for cacheProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:20.079
+!MESSAGE Unknown javadoc format for cacheProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:20.298
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for clipProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:20.298
+!MESSAGE Unknown javadoc format for clipProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:20.423
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for contains(javafx.geometry.Point2D) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:20.423
+!MESSAGE Unknown javadoc format for contains(javafx.geometry.Point2D) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:20.861
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for contains(double, double) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:20.861
+!MESSAGE Unknown javadoc format for contains(double, double) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:21.673
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for cursorProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:21.673
+!MESSAGE Unknown javadoc format for cursorProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:22.220
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for depthTestProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:22.220
+!MESSAGE Unknown javadoc format for depthTestProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:22.454
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for disabledProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:22.454
+!MESSAGE Unknown javadoc format for disabledProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:22.642
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for disableProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:22.642
+!MESSAGE Unknown javadoc format for disableProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:22.861
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for effectProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:22.861
+!MESSAGE Unknown javadoc format for effectProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:23.454
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for eventDispatcherProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:23.454
+!MESSAGE Unknown javadoc format for eventDispatcherProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:24.204
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for fireEvent(javafx.event.Event) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:24.204
+!MESSAGE Unknown javadoc format for fireEvent(javafx.event.Event) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:24.517
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for focusedProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:24.532
+!MESSAGE Unknown javadoc format for focusedProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:24.829
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for focusTraversableProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:24.829
+!MESSAGE Unknown javadoc format for focusTraversableProperty() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:26.689
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getBlendMode() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:26.689
+!MESSAGE Unknown javadoc format for getBlendMode() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:27.048
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getBoundsInLocal() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:27.048
+!MESSAGE Unknown javadoc format for getBoundsInLocal() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:27.376
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getBoundsInParent() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:27.376
+!MESSAGE Unknown javadoc format for getBoundsInParent() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:27.673
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getCacheHint() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:27.673
+!MESSAGE Unknown javadoc format for getCacheHint() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:33.032
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getClip() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:33.032
+!MESSAGE Unknown javadoc format for getClip() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:33.939
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getCursor() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:33.939
+!MESSAGE Unknown javadoc format for getCursor() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:34.376
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getDepthTest() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:34.376
+!MESSAGE Unknown javadoc format for getDepthTest() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:34.923
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getEffect() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:34.923
+!MESSAGE Unknown javadoc format for getEffect() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:35.392
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getEventDispatcher() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:35.392
+!MESSAGE Unknown javadoc format for getEventDispatcher() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:36.314
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getId() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:36.314
+!MESSAGE Unknown javadoc format for getId() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:37.282
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getInputMethodRequests() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:37.282
+!MESSAGE Unknown javadoc format for getInputMethodRequests() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:37.939
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getLayoutBounds() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:37.939
+!MESSAGE Unknown javadoc format for getLayoutBounds() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:38.595
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getLayoutX() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:38.595
+!MESSAGE Unknown javadoc format for getLayoutX() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:38.907
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getLayoutY() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:38.907
+!MESSAGE Unknown javadoc format for getLayoutY() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:39.157
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getLocalToParentTransform() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:39.157
+!MESSAGE Unknown javadoc format for getLocalToParentTransform() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:39.345
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getLocalToSceneTransform() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:39.345
+!MESSAGE Unknown javadoc format for getLocalToSceneTransform() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:40.923
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnContextMenuRequested() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:40.923
+!MESSAGE Unknown javadoc format for getOnContextMenuRequested() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:41.079
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnDragDetected() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:41.079
+!MESSAGE Unknown javadoc format for getOnDragDetected() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:41.236
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnDragDone() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:41.236
+!MESSAGE Unknown javadoc format for getOnDragDone() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:41.439
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnDragDropped() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:41.439
+!MESSAGE Unknown javadoc format for getOnDragDropped() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:41.595
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnDragEntered() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:41.595
+!MESSAGE Unknown javadoc format for getOnDragEntered() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:41.782
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnDragExited() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:41.782
+!MESSAGE Unknown javadoc format for getOnDragExited() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:41.954
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnDragOver() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:41.954
+!MESSAGE Unknown javadoc format for getOnDragOver() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:42.111
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnInputMethodTextChanged() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:42.111
+!MESSAGE Unknown javadoc format for getOnInputMethodTextChanged() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:42.267
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnKeyPressed() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:42.267
+!MESSAGE Unknown javadoc format for getOnKeyPressed() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:42.407
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnKeyReleased() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:42.407
+!MESSAGE Unknown javadoc format for getOnKeyReleased() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:42.579
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnKeyTyped() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:42.579
+!MESSAGE Unknown javadoc format for getOnKeyTyped() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:42.736
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnMouseClicked() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:42.736
+!MESSAGE Unknown javadoc format for getOnMouseClicked() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:42.876
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnMouseDragEntered() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:42.876
+!MESSAGE Unknown javadoc format for getOnMouseDragEntered() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:43.064
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnMouseDragExited() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:43.064
+!MESSAGE Unknown javadoc format for getOnMouseDragExited() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:43.220
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnMouseDragged() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:43.220
+!MESSAGE Unknown javadoc format for getOnMouseDragged() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:43.376
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnMouseDragOver() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:43.376
+!MESSAGE Unknown javadoc format for getOnMouseDragOver() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:43.532
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnMouseDragReleased() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:43.532
+!MESSAGE Unknown javadoc format for getOnMouseDragReleased() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:43.689
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnMouseEntered() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:43.689
+!MESSAGE Unknown javadoc format for getOnMouseEntered() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:43.829
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnMouseExited() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:43.829
+!MESSAGE Unknown javadoc format for getOnMouseExited() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:43.970
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnMouseMoved() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:43.970
+!MESSAGE Unknown javadoc format for getOnMouseMoved() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:44.189
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnMousePressed() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:44.189
+!MESSAGE Unknown javadoc format for getOnMousePressed() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:22:44.376
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getOnMouseReleased() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:22:44.376
+!MESSAGE Unknown javadoc format for getOnMouseReleased() [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:28:15.611
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for addEventFilter(javafx.event.EventType<T>, javafx.event.EventHandler<? super T>) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:28:15.611
+!MESSAGE Unknown javadoc format for addEventFilter(javafx.event.EventType<T>, javafx.event.EventHandler<? super T>) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-03 14:28:19.267
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for setManaged(boolean) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:132)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:641)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-03 14:28:19.267
+!MESSAGE Unknown javadoc format for setManaged(boolean) [in Node [in Node.class [in javafx.scene [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]

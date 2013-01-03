@@ -117,11 +117,11 @@ public class CarSearchView extends VBox {
 
 		TableColumn<CarModel, String> modelCol = new TableColumn<CarModel, String>("Model");
 		modelCol.setCellValueFactory(new PropertyValueFactory("model"));
-		modelCol.setPrefWidth(150);
+		modelCol.setPrefWidth(145);
 
 		TableColumn<CarModel, Integer> carYearCol = new TableColumn<CarModel, Integer>("Year");
 		carYearCol.setCellValueFactory(new PropertyValueFactory("carYear"));
-		carYearCol.setPrefWidth(75);
+		carYearCol.setPrefWidth(70);
 
 		TableColumn<CarModel, Double> kilometersCol = new TableColumn<CarModel, Double>("Milage");
 		kilometersCol.setCellValueFactory(new PropertyValueFactory("kilometers"));
