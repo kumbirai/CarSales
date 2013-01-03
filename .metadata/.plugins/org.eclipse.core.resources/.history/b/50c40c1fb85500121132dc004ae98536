@@ -68,13 +68,6 @@ public class MainView extends BorderPane {
 		this.presenter = mainPresenter;
 	}
 
-	/**
-	 * @author Kumbirai 'Coach' Mundangepfupfu - 19 Dec 2012
-	 * 
-	 * setContent
-	 * 
-	 * @param content
-	 */
 	public void setContent(Node content) {
 		contentArea.setCenter(content);
 	}
@@ -181,7 +174,6 @@ public class MainView extends BorderPane {
 		tb4.setMaxWidth(btnWidth);
 		ToggleButton tb5 = new ToggleButton("Search on Price and Distance traveled");
 		tb5.setMaxWidth(btnWidth);
-		
 		ToggleGroup group = new ToggleGroup();
 		tb1.setToggleGroup(group);
 		tb2.setToggleGroup(group);
