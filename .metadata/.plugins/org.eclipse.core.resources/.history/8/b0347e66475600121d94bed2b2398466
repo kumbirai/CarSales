@@ -215,6 +215,7 @@ public class CarDetailView extends GridPane {
 		Button saveButton = new Button("Save");
 		saveButton.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent event) {
+				//presenter.save();
 				saveButtonClicked();
 			}
 		});
@@ -237,8 +238,6 @@ public class CarDetailView extends GridPane {
 		buttonBar.getChildren().add(cancelButton);
 
 		add(buttonBar, 0, row, 1, 2);
-
-		row++;
 	}
 
 	/**

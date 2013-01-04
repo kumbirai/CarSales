@@ -239,6 +239,7 @@ public class CarDetailView extends GridPane {
 		add(buttonBar, 0, row, 1, 2);
 
 		row++;
+
 	}
 
 	/**
