@@ -168,7 +168,7 @@ public class CarDetailView extends GridPane {
 					if (d < 1996 || d > 2013) {
 						ValidationResult result = new ValidationResult("Should be between 1996 and 2013", ValidationResult.Type.WARNING);
 						System.out.printf("validation message = %s, validation type = %s\n", result.getMessage(), result.getType());
-						return new ValidationResult("Should be between 1996 and 2013", ValidationResult.Type.WARNING);
+						return result;
 					}
 					return null; // succeeded
 				} catch (Exception e) {

@@ -1,2 +1,8 @@
-jfx.build.stagingdir = ${workspace}/JavaFX/build
-jfx.build.apptitle = JavaFX
+<?xml version="1.0" encoding="UTF-8"?>
+<anttasks:AntTask xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:anttasks="http://at.bestsolution.efxclipse.tooling.jdt/1.0" buildDirectory="${workspace}/JavaFX/build">
+  <deploy>
+    <application name="JavaFX"/>
+    <info/>
+  </deploy>
+  <signjar/>
+</anttasks:AntTask>

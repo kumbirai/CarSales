@@ -10,6 +10,7 @@
  */
 package za.co.kumbirai.carsales.gui;
 
+import javafx.stage.Stage;
 import za.co.kumbirai.carsales.gui.detail.CarDetailPresenter;
 import za.co.kumbirai.carsales.gui.detail.CarDetailView;
 import za.co.kumbirai.carsales.gui.main.MainPresenter;
@@ -42,6 +43,7 @@ import za.co.kumbirai.carsales.service.interfaces.CarSalesService;
  *					
  */
 public class CarSalesMainFactory {
+	private Stage stage;
 	private MainPresenter mainPresenter;
 	private CarSummaryPresenter carSummaryPresenter;
 	private CarSearchPresenter carSearchPresenter;
@@ -49,14 +51,24 @@ public class CarSalesMainFactory {
 	private CarSalesService service;
 
 	/**
+	 * @param stage 
 	 * 
 	 */
-	public CarSalesMainFactory() {
+	public CarSalesMainFactory(Stage stage) {
+		this.stage = stage;
 	}
 
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 19 Dec 2012
+	 * 
+	 * getMainPresenter
+	 * 
+	 * @return
+	 */
 	public MainPresenter getMainPresenter() {
 		if (mainPresenter == null) {
 			MainView view = new MainView();
+			view.setStage(stage);
 			mainPresenter = new MainPresenter(view);
 			mainPresenter.setCarSummaryPresenter(getCarSummaryPresenter());
 			mainPresenter.setCarSearchPresenter(getCarSearchPresenter());

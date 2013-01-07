@@ -107,7 +107,6 @@ public class MainPresenter {
 	 * @param carId
 	 */
 	public void showCarDetails(Long carId) {
-		System.out.printf("MainPresenter#showCarDetails called with carId = %s\n", carId);
 		carDetailPresenter.show(carId);
 		view.setContent(carDetailPresenter.getView());
 	}

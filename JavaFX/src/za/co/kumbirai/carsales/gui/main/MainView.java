@@ -12,19 +12,32 @@ package za.co.kumbirai.carsales.gui.main;
 
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+import javafx.scene.Group;
 import javafx.scene.Node;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
 import javafx.scene.control.Toggle;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.control.ToggleGroup;
+import javafx.scene.effect.Lighting;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
+import javafx.scene.text.Font;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
+import za.co.kumbirai.carsales.gui.detail.CarDetailView;
+import za.co.kumbirai.carsales.gui.search.CarSearchView;
+import za.co.kumbirai.carsales.gui.summary.CarSummaryView;
 
 /**
  * <p><b>Purpose:</b><br>
@@ -48,7 +61,14 @@ import javafx.scene.layout.VBox;
  */
 public class MainView extends BorderPane {
 	private MainPresenter presenter;
+	private Stage stage;
 	private BorderPane contentArea;
+	private ToggleGroup group;
+	private ToggleButton wlcmBtn;
+	private ToggleButton addCarBtn;
+	private ToggleButton srchMkeBtn;
+	private ToggleButton srchAgeBtn;
+	private ToggleButton srchPrcBtn;
 
 	/**
 	 * 
@@ -77,6 +97,38 @@ public class MainView extends BorderPane {
 	 */
 	public void setContent(Node content) {
 		contentArea.setCenter(content);
+		setToggle(content);
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 07 Jan 2013
+	 * 
+	 * setToggle
+	 * 
+	 * @param content
+	 */
+	private void setToggle(Node content) {
+		if (group != null) {
+			if (content.getClass().equals(CarSummaryView.class)) {
+				if (!wlcmBtn.equals(group.getSelectedToggle()))
+					group.selectToggle(wlcmBtn);
+			}
+			if (content.getClass().equals(CarDetailView.class)) {
+				if (!addCarBtn.equals(group.getSelectedToggle()))
+					group.selectToggle(addCarBtn);
+			}
+			if (content.getClass().equals(CarSearchView.class)) {
+				if (!srchMkeBtn.equals(group.getSelectedToggle()))
+					group.selectToggle(srchMkeBtn);
+			}
+		}
+	}
+
+	/** Setter for the <code>stage</code> attribute.
+	 * @param Stage stage
+	 */
+	public void setStage(Stage stage) {
+		this.stage = stage;
 	}
 
 	/**
@@ -118,25 +170,62 @@ public class MainView extends BorderPane {
 	MenuBar createMenuBar() {
 		MenuBar menuBar = new MenuBar();
 		Menu fileMenu = new Menu("File");
-		//menuBar.getMenus().set(0, fileMenu);
+
 		menuBar.getMenus().add(fileMenu);
 
 		MenuItem fileAboutItem = new MenuItem("About");
 		MenuItem fileExitItem = new MenuItem("Exit");
 
-		fileMenu.getItems().add(fileAboutItem);
-		fileMenu.getItems().add(fileExitItem);
+		fileAboutItem.setOnAction(new EventHandler<ActionEvent>() {
+			public void handle(ActionEvent t) {
+				if (stage != null) {
+					final Stage aboutStage = new Stage();
+					//create root node of scene, i.e. group
+					Group rootGroup = new Group();
+					//create scene with set width, height and color
+					Scene scene = new Scene(rootGroup, 200, 200, Color.WHITESMOKE);
+					//set scene to stage
+					aboutStage.setScene(scene);
+					//center stage on screen
+					aboutStage.centerOnScreen();
+					//show the stage
+					aboutStage.show();
+					//add some node to scene
+					Text text = new Text(20, 80, "Cars Sales System\n\nKumbirai Mundangepfupfu\nVersion 1.0");
+					text.setFill(Color.DODGERBLUE);
+					text.setEffect(new Lighting());
+					text.setFont(Font.font(Font.getDefault().getFamily(), 16));
+					//add text to the main root group
+					Button close = new Button("Close");
+					close.setOnAction(new EventHandler<ActionEvent>() {
+						public void handle(ActionEvent event) {
+							aboutStage.close();
+						}
+					});
+
+					VBox vBox = new VBox();
+					vBox.setSpacing(10);
+					vBox.setPadding(new Insets(50, 0, 0, 10));
+					vBox.setAlignment(Pos.TOP_CENTER);
+					vBox.getChildren().addAll(text, close);
+
+					rootGroup.getChildren().add(vBox);
+				}
+			}
+		});
+
+		fileExitItem.setOnAction(new EventHandler<ActionEvent>() {
+			public void handle(ActionEvent t) {
+				if (stage != null) {
+					WindowEvent we = new WindowEvent(stage, WindowEvent.WINDOW_CLOSE_REQUEST);
+					stage.fireEvent(we);
+				}
+			}
+		});
+
+		fileMenu.getItems().addAll(fileAboutItem, fileExitItem);
 
 		return menuBar;
-	}
-
-	private String selected = "Welcome";
-
-	/** Setter for the <code>selected</code> attribute.
-	 * @param String selected
-	 */
-	public void setSelected(String selected) {
-		this.selected = selected;
 	}
 
 	/**
@@ -147,59 +236,39 @@ public class MainView extends BorderPane {
 	 * @return
 	 */
 	VBox createLeftMenu() {
-		ListView<String> list = new ListView<String>();
-		ObservableList<String> data = FXCollections.observableArrayList("Welcome", "Add a Car", "Show all makes and models", "Search on age",
-				"Search on Price and Distance traveled");
 		VBox left = new VBox(5);
-		//left.getChildren().add(list);
 
-		list.setItems(data);
-		list.getSelectionModel().select(this.selected);
-		list.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
-			public void changed(ObservableValue<? extends String> ov, String old_val, String new_val) {
-				System.out.printf("old_val = %s, new_val = %s\n", old_val, new_val);
-				if ("Welcome".equalsIgnoreCase(new_val)) {
-					presenter.showSummary();
-				}
-				if ("Add a Car".equalsIgnoreCase(new_val)) {
-					presenter.showCarDetails(null);
-				}
-				if ("Show all makes and models".equalsIgnoreCase(new_val)) {
-					presenter.showSearchResults();
-				}
-			}
-		});
 		Double btnWidth = new Double(205);
 
-		ToggleButton tb1 = new ToggleButton("Welcome");
-		tb1.setMaxWidth(btnWidth);
-		ToggleButton tb2 = new ToggleButton("Add a Car");
-		tb2.setMaxWidth(btnWidth);
-		ToggleButton tb3 = new ToggleButton("Show all makes and models");
-		tb3.setMaxWidth(btnWidth);
-		ToggleButton tb4 = new ToggleButton("Search on age");
-		tb4.setMaxWidth(btnWidth);
-		ToggleButton tb5 = new ToggleButton("Search on Price and Distance traveled");
-		tb5.setMaxWidth(btnWidth);
-		
-		ToggleGroup group = new ToggleGroup();
-		tb1.setToggleGroup(group);
-		tb2.setToggleGroup(group);
-		tb3.setToggleGroup(group);
-		tb4.setToggleGroup(group);
-		tb5.setToggleGroup(group);
+		group = new ToggleGroup();
+
+		wlcmBtn = new ToggleButton("Welcome");
+		wlcmBtn.setMaxWidth(btnWidth);
+		wlcmBtn.setToggleGroup(group);
+
+		addCarBtn = new ToggleButton("Add a Car");
+		addCarBtn.setMaxWidth(btnWidth);
+		addCarBtn.setToggleGroup(group);
+
+		srchMkeBtn = new ToggleButton("Show all makes and models");
+		srchMkeBtn.setMaxWidth(btnWidth);
+		srchMkeBtn.setToggleGroup(group);
+
+		srchAgeBtn = new ToggleButton("Search on age");
+		srchAgeBtn.setMaxWidth(btnWidth);
+		srchAgeBtn.setToggleGroup(group);
+
+		srchPrcBtn = new ToggleButton("Search on Price and Distance traveled");
+		srchPrcBtn.setMaxWidth(btnWidth);
+		srchPrcBtn.setToggleGroup(group);
+
 		group.selectedToggleProperty().addListener(new ChangeListener<Toggle>() {
 			@Override
 			public void changed(ObservableValue<? extends Toggle> observable, Toggle oldValue, Toggle selectedToggle) {
 				String selected = new String();
-				if (selectedToggle != null) {
+				if (selectedToggle != null)
 					selected = ((ToggleButton) selectedToggle).getText();
-				} else {
-					//label.setText("...");
-					//if (oldValue != null) {
-					//selected = ((ToggleButton) selectedToggle).getText();
-					//}
-				}
+
 				if (presenter != null) {
 					if ("Welcome".equalsIgnoreCase(selected)) {
 						presenter.showSummary();
@@ -215,10 +284,9 @@ public class MainView extends BorderPane {
 		});
 
 		// select the first button to start with
+		group.selectToggle(wlcmBtn);
 
-		group.selectToggle(tb1);
-
-		left.getChildren().addAll(tb1, tb2, tb3, tb4, tb5);
+		left.getChildren().addAll(wlcmBtn, addCarBtn, srchMkeBtn, srchAgeBtn, srchPrcBtn);
 
 		return left;
 	}

@@ -51,10 +51,9 @@ public class CarSalesMain extends Application {
 	 */
 	@Override
 	public void start(Stage stage) throws Exception {
-		final CarSalesMainFactory factory = new CarSalesMainFactory();
+		final CarSalesMainFactory factory = new CarSalesMainFactory(stage);
 		MainPresenter mainPresenter = factory.getMainPresenter();
 		mainPresenter.showSummary();
-		//mainPresenter.showSearchResults();
 		Scene scene = new Scene(mainPresenter.getView(), 800, 600);
 		scene.getStylesheets().addAll(CarSalesMain.class.getResource("styles.css").toExternalForm());
 		stage.setScene(scene);

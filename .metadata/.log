@@ -5343,3 +5343,33 @@ Java Model Exception: Java Model Status [Unknown javadoc format for USE_PREF_SIZ
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1009 2013-01-04 10:28:13.761
 !MESSAGE Unknown javadoc format for USE_PREF_SIZE {key=Ljavafx/scene/control/Control;.USE_PREF_SIZE)D} [in Control [in Control.class [in javafx.scene.control [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]]]
+!SESSION 2013-01-07 11:09:27.500 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-01-07 11:09:29.375
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-01-07 11:09:29.375
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY org.eclipse.ui 4 4 2013-01-07 11:10:40.140
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.context.ui.actionSet
+
+!ENTRY org.eclipse.ui 4 4 2013-01-07 11:10:40.171
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.tasks.ui.navigation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-07 11:14:20.765
+!MESSAGE System property http.proxyHost is set to 10.6.125.69 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-07 11:14:20.765
+!MESSAGE System property http.proxyPort is set to 80 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-07 11:14:20.765
+!MESSAGE System property https.proxyHost is set to 10.6.125.69 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-07 11:14:20.765
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
