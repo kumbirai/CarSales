@@ -8,8 +8,8 @@
 	</section>
 	<section name="PreferencesExportWizard">
 		<item value="C:\JavaFXCode\Prefs.epf" key=""/>
-		<item value="false" key="WizardPreferencesExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID"/>
 		<item value="false" key="WizardPreferencesExportPage1.EXPORT_ALL_PREFERENCES_ID"/>
+		<item value="false" key="WizardPreferencesExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID"/>
 		<list key="WizardPreferencesExportPage1.TRANSFER_PREFERENCES_NAMES_ID">
 			<item value="org.eclipse.jdt.internal.ui.transfer.appearance"/>
 			<item value="org.eclipse.jdt.internal.ui.transfer.codestyle"/>

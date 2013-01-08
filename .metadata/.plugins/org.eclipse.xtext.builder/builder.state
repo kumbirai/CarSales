@@ -1,663 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:builderState="http://www.eclipse.org/xtext/builderstate/1.0">
-  <builderState:ResourceDescription URI="platform:/resource/JavaFX/src/za/co/kumbirai/carsales/gui/styles.css">
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.0/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.0/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.0/@declarations.1/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.0/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.1/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.2/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.3/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.4/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.4/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.5/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-  </builderState:ResourceDescription>
-  <builderState:ResourceDescription URI="archive:file:/C:/Program%20Files/Java/jre7/lib/jfxrt.jar!/com/sun/deploy/uitoolkit/impl/fx/ui/deploydialogs.css">
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.0/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.1/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.1/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-skin" fragment="//@ruleset.2/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.2/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.3/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.3/@declarations.0/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:radial-gradient" fragment="//@ruleset.3/@declarations.0/@valueTokens.4/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:radial-gradient4:rgba" fragment="//@ruleset.3/@declarations.0/@valueTokens.4/@func/@params.12/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="21:-fx-background-insets" fragment="//@ruleset.3/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.3/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.4/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.4/@declarations.0/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.4/@declarations.0/@valueTokens.1/@func/@params.0/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.4/@declarations.0/@valueTokens.1/@func/@params.3/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.4/@declarations.0/@valueTokens.1/@func/@params.8/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.4/@declarations.0/@valueTokens.1/@func/@params.13/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.4/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="4:rgba" fragment="//@ruleset.4/@declarations.1/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-opacity" fragment="//@ruleset.4/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.5/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.6/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.7/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-skin" fragment="//@ruleset.8/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.8/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="21:-fx-background-insets" fragment="//@ruleset.8/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="21:-fx-background-radius" fragment="//@ruleset.8/@declarations.3/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.8/@declarations.4/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.8/@declarations.5/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.9/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.9/@declarations.0/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.9/@declarations.0/@valueTokens.4/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.10/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.10/@declarations.0/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.10/@declarations.0/@valueTokens.4/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.11/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:-fx-scale-shape" fragment="//@ruleset.11/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.11/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.12/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.13/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="9:-fx-shape" fragment="//@ruleset.14/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="9:-fx-shape" fragment="//@ruleset.15/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.15/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="9:-fx-shape" fragment="//@ruleset.16/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="9:-fx-shape" fragment="//@ruleset.17/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.18/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="17:-fx-border-insets" fragment="//@ruleset.18/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-width" fragment="//@ruleset.18/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="17:-fx-border-radius" fragment="//@ruleset.18/@declarations.3/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:-fx-effect" fragment="//@ruleset.18/@declarations.4/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.18/@declarations.4/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.18/@declarations.4/@valueTokens.1/@func/@params.3/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.18/@declarations.5/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:-fx-effect" fragment="//@ruleset.19/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.19/@declarations.0/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.19/@declarations.0/@valueTokens.1/@func/@params.3/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.19/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.20/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.20/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.20/@declarations.1/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="21:-fx-background-radius" fragment="//@ruleset.20/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.21/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.21/@declarations.0/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.22/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.22/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.22/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.22/@declarations.3/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.23/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-fill" fragment="//@ruleset.24/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:-fx-cursor" fragment="//@ruleset.24/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-font-size" fragment="//@ruleset.25/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-font-size" fragment="//@ruleset.26/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:-fx-font-weight" fragment="//@ruleset.26/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-font-size" fragment="//@ruleset.27/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:-fx-font-weight" fragment="//@ruleset.27/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.28/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.28/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.29/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.29/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.29/@declarations.1/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.30/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.30/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.31/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.31/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.31/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.32/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-spacing" fragment="//@ruleset.32/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.32/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.32/@declarations.2/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-width" fragment="//@ruleset.32/@declarations.3/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.32/@declarations.4/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.32/@declarations.5/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-hgap" fragment="//@ruleset.33/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-vgap" fragment="//@ruleset.33/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.34/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.35/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.35/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.35/@declarations.1/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-width" fragment="//@ruleset.35/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.35/@declarations.3/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.36/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-spacing" fragment="//@ruleset.36/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.36/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.36/@declarations.2/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.36/@declarations.3/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.37/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.37/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.37/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.37/@declarations.3/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.38/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.38/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.39/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.40/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.41/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.41/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.41/@declarations.1/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-hgap" fragment="//@ruleset.42/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-vgap" fragment="//@ruleset.42/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.43/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.44/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.45/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.46/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.47/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.48/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.48/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.49/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.50/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.50/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.51/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.52/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.52/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.53/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.54/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.55/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-spacing" fragment="//@ruleset.55/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.56/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.57/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.58/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.58/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.59/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.59/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.60/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.61/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.62/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.62/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.63/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.63/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.64/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-width" fragment="//@ruleset.64/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.64/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.65/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.65/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.66/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-width" fragment="//@ruleset.66/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-style" fragment="//@ruleset.66/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.67/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.67/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.68/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.69/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.70/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.71/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.71/@declarations.0/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.71/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.71/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.72/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.73/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.74/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.75/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.76/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.76/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.77/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-hgap" fragment="//@ruleset.78/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-vgap" fragment="//@ruleset.78/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.79/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.80/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.81/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.82/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.83/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.84/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.84/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.85/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.85/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.85/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.86/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-spacing" fragment="//@ruleset.86/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.86/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.87/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.88/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.89/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.89/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.90/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.90/@declarations.0/@valueTokens.1/@func">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.90/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.90/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.91/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.92/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.93/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.94/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.94/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.95/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.96/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-text-overrun" fragment="//@ruleset.96/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.97/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.97/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.97/@declarations.2/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.98/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.99/@declarations.0/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.99/@declarations.1/@property">
-      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
-    </exportedObjects>
-  </builderState:ResourceDescription>
   <builderState:ResourceDescription URI="archive:file:/C:/Program%20Files/Java/jre7/lib/jfxrt.jar!/com/sun/javafx/scene/control/skin/caspian/caspian.css">
     <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-base" fragment="//@ruleset.0/@declarations.0/@property">
       <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
@@ -5335,6 +4677,709 @@
     </exportedObjects>
     <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.522/@declarations.0/@property">
       <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+  </builderState:ResourceDescription>
+  <builderState:ResourceDescription URI="archive:file:/C:/Program%20Files/Java/jre7/lib/jfxrt.jar!/com/sun/deploy/uitoolkit/impl/fx/ui/deploydialogs.css">
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.0/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.1/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.1/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-skin" fragment="//@ruleset.2/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.2/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.3/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.3/@declarations.0/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:radial-gradient" fragment="//@ruleset.3/@declarations.0/@valueTokens.4/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:radial-gradient4:rgba" fragment="//@ruleset.3/@declarations.0/@valueTokens.4/@func/@params.12/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="21:-fx-background-insets" fragment="//@ruleset.3/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.3/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.4/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.4/@declarations.0/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.4/@declarations.0/@valueTokens.1/@func/@params.0/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.4/@declarations.0/@valueTokens.1/@func/@params.3/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.4/@declarations.0/@valueTokens.1/@func/@params.8/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.4/@declarations.0/@valueTokens.1/@func/@params.13/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.4/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="4:rgba" fragment="//@ruleset.4/@declarations.1/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-opacity" fragment="//@ruleset.4/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.5/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.6/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.7/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-skin" fragment="//@ruleset.8/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.8/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="21:-fx-background-insets" fragment="//@ruleset.8/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="21:-fx-background-radius" fragment="//@ruleset.8/@declarations.3/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.8/@declarations.4/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.8/@declarations.5/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.9/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.9/@declarations.0/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.9/@declarations.0/@valueTokens.4/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.10/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.10/@declarations.0/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.10/@declarations.0/@valueTokens.4/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.11/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:-fx-scale-shape" fragment="//@ruleset.11/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.11/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.12/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.13/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="9:-fx-shape" fragment="//@ruleset.14/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="9:-fx-shape" fragment="//@ruleset.15/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.15/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="9:-fx-shape" fragment="//@ruleset.16/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="9:-fx-shape" fragment="//@ruleset.17/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.18/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="17:-fx-border-insets" fragment="//@ruleset.18/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-width" fragment="//@ruleset.18/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="17:-fx-border-radius" fragment="//@ruleset.18/@declarations.3/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:-fx-effect" fragment="//@ruleset.18/@declarations.4/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.18/@declarations.4/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.18/@declarations.4/@valueTokens.1/@func/@params.3/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.18/@declarations.5/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:-fx-effect" fragment="//@ruleset.19/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.19/@declarations.0/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.19/@declarations.0/@valueTokens.1/@func/@params.3/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.19/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.20/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.20/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.20/@declarations.1/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="21:-fx-background-radius" fragment="//@ruleset.20/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.21/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.21/@declarations.0/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.22/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.22/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.22/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.22/@declarations.3/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.23/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-fill" fragment="//@ruleset.24/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:-fx-cursor" fragment="//@ruleset.24/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-font-size" fragment="//@ruleset.25/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-font-size" fragment="//@ruleset.26/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:-fx-font-weight" fragment="//@ruleset.26/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-font-size" fragment="//@ruleset.27/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:-fx-font-weight" fragment="//@ruleset.27/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.28/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.28/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.29/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.29/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.29/@declarations.1/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.30/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.30/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.31/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.31/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.31/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.32/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-spacing" fragment="//@ruleset.32/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.32/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.32/@declarations.2/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-width" fragment="//@ruleset.32/@declarations.3/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.32/@declarations.4/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.32/@declarations.5/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-hgap" fragment="//@ruleset.33/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-vgap" fragment="//@ruleset.33/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.34/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.35/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.35/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.35/@declarations.1/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-width" fragment="//@ruleset.35/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.35/@declarations.3/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.36/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-spacing" fragment="//@ruleset.36/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.36/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.36/@declarations.2/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.36/@declarations.3/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.37/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.37/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.37/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.37/@declarations.3/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.38/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.38/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.39/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.40/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.41/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.41/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.41/@declarations.1/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-hgap" fragment="//@ruleset.42/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-vgap" fragment="//@ruleset.42/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.43/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.44/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.45/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.46/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.47/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.48/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.48/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.49/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.50/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.50/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.51/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.52/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.52/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.53/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.54/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.55/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-spacing" fragment="//@ruleset.55/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.56/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.57/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.58/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.58/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.59/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.59/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.60/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.61/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.62/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.62/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.63/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.63/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.64/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-width" fragment="//@ruleset.64/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.64/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.65/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.65/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.66/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-width" fragment="//@ruleset.66/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-style" fragment="//@ruleset.66/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.67/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-border-color" fragment="//@ruleset.67/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.68/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.69/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.70/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.71/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.71/@declarations.0/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.71/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.71/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.72/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.73/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.74/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.75/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.76/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.76/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.77/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-hgap" fragment="//@ruleset.78/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-vgap" fragment="//@ruleset.78/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.79/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.80/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.81/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.82/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.83/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.84/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.84/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.85/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.85/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.85/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.86/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-spacing" fragment="//@ruleset.86/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.86/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.87/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.88/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-alignment" fragment="//@ruleset.89/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.89/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.90/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.90/@declarations.0/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.90/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.90/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.91/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.92/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.93/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.94/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.94/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.95/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.96/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="16:-fx-text-overrun" fragment="//@ruleset.96/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-wrap-text" fragment="//@ruleset.97/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.97/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.97/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.98/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.99/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.99/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+  </builderState:ResourceDescription>
+  <builderState:ResourceDescription URI="platform:/resource/JavaFX/src/za/co/kumbirai/carsales/gui/styles.css">
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.0/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.0/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.0/@declarations.1/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.0/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.1/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:-fx-font" fragment="//@ruleset.2/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.3/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.4/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.4/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.5/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:-fx-padding" fragment="//@ruleset.6/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="23:-fx-border-image-source" fragment="//@ruleset.6/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="22:-fx-border-image-slice" fragment="//@ruleset.6/@declarations.2/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="22:-fx-border-image-width" fragment="//@ruleset.6/@declarations.3/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="23:-fx-border-image-insets" fragment="//@ruleset.6/@declarations.4/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="23:-fx-border-image-repeat" fragment="//@ruleset.6/@declarations.5/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="20:-fx-background-color" fragment="//@ruleset.6/@declarations.6/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="23:-fx-border-image-source" fragment="//@ruleset.7/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.8/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:-fx-effect" fragment="//@ruleset.8/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.8/@declarations.1/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.8/@declarations.1/@valueTokens.1/@func/@params.5/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="13:-fx-text-fill" fragment="//@ruleset.9/@declarations.0/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:-fx-effect" fragment="//@ruleset.9/@declarations.1/@property">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//css_property"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.9/@declarations.1/@valueTokens.1/@func">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
     </exportedObjects>
   </builderState:ResourceDescription>
   <builderState:ResourceDescription URI="archive:file:/C:/Program%20Files/Java/jre7/lib/jfxrt.jar!/com/sun/javafx/scene/web/skin/html-editor.css">

@@ -170,12 +170,9 @@ public class MainView extends BorderPane {
 	MenuBar createMenuBar() {
 		MenuBar menuBar = new MenuBar();
 		Menu fileMenu = new Menu("File");
-
 		menuBar.getMenus().add(fileMenu);
 
 		MenuItem fileAboutItem = new MenuItem("About");
-		MenuItem fileExitItem = new MenuItem("Exit");
-
 		fileAboutItem.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent t) {
 				if (stage != null) {
@@ -213,7 +210,9 @@ public class MainView extends BorderPane {
 				}
 			}
 		});
+		fileMenu.getItems().add(fileAboutItem);
 
+		MenuItem fileExitItem = new MenuItem("Exit");
 		fileExitItem.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent t) {
 				if (stage != null) {
@@ -222,8 +221,7 @@ public class MainView extends BorderPane {
 				}
 			}
 		});
-
-		fileMenu.getItems().addAll(fileAboutItem, fileExitItem);
+		fileMenu.getItems().add(fileExitItem);
 
 		return menuBar;
 	}
@@ -236,7 +234,7 @@ public class MainView extends BorderPane {
 	 * @return
 	 */
 	VBox createLeftMenu() {
-		VBox left = new VBox(5);
+		VBox left = new VBox(2);
 
 		Double btnWidth = new Double(205);
 
