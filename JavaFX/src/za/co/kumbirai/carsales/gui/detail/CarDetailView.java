@@ -73,13 +73,14 @@ public class CarDetailView extends GridPane {
 	 */
 	public Car getCar() {
 		Car car = new Car(manufacturerField.getText(), modelField.getText(), informationField.getText());
-
 		car.setId(carId);
-		//car.setModel(modelField.getText());
-		car.setCarYear(new Integer(carYearField.getText()));
-		car.setPrice(new BigDecimal(priceField.getText()));
-		car.setKilometers(new Double(kilometersField.getText()));
-		//car.setInformation(informationField.getText());
+
+		try {
+			car.setCarYear(!"".equalsIgnoreCase(carYearField.getText()) ? new Integer(carYearField.getText()) : new Integer(0));
+			car.setPrice(!"".equalsIgnoreCase(priceField.getText()) ? new BigDecimal(priceField.getText()) : new BigDecimal(0));
+			car.setKilometers(!"".equalsIgnoreCase(kilometersField.getText()) ? new Double(kilometersField.getText()) : new Double(0));
+		} catch (NumberFormatException ex) {
+		}
 
 		return car;
 	}
@@ -159,15 +160,13 @@ public class CarDetailView extends GridPane {
 		carYearPane.setContent(carYearField);
 		carYearPane.setValidator(new Validator<TextField>() {
 			public ValidationResult validate(TextField control) {
-				System.out.printf("carYearPane validate text field content: %s\n", control.getText());
 				try {
 					String text = control.getText();
 					if (text == null || text.trim().equals(""))
 						return null;
 					double d = Double.parseDouble(text);
 					if (d < 1996 || d > 2013) {
-						ValidationResult result = new ValidationResult("Should be between 1996 and 2013", ValidationResult.Type.WARNING);
-						System.out.printf("validation message = %s, validation type = %s\n", result.getMessage(), result.getType());
+						ValidationResult result = new ValidationResult("Car Year should be between 1996 and 2013", ValidationResult.Type.WARNING);
 						return result;
 					}
 					return null; // succeeded
@@ -178,7 +177,7 @@ public class CarDetailView extends GridPane {
 			}
 		});
 		carYearPane.getStylesheets().add(styleCss);
-		add(carYearField, 1, row);
+		add(carYearPane, 1, row);
 
 		row++;
 
@@ -187,7 +186,24 @@ public class CarDetailView extends GridPane {
 		kilometersField.setPrefColumnCount(20);
 		kilometersField.setPromptText("Milage");
 		kilometersField.setMaxHeight(TextField.USE_PREF_SIZE);
-		add(kilometersField, 1, row);
+		TextInputValidatorPane<TextField> kilometersPane = new TextInputValidatorPane<TextField>();
+		kilometersPane.setContent(kilometersField);
+		kilometersPane.setValidator(new Validator<TextField>() {
+			public ValidationResult validate(TextField control) {
+				try {
+					String text = control.getText();
+					if (text == null || text.trim().equals(""))
+						return null;
+					Double.parseDouble(text);
+					return null; // Valid Number: success
+				} catch (Exception e) {
+					// failed
+					return new ValidationResult("Bad number", ValidationResult.Type.ERROR);
+				}
+			}
+		});
+		kilometersPane.getStylesheets().add(styleCss);
+		add(kilometersPane, 1, row);
 
 		row++;
 
@@ -196,7 +212,24 @@ public class CarDetailView extends GridPane {
 		priceField.setPrefColumnCount(20);
 		priceField.setPromptText("Price");
 		priceField.setMaxHeight(TextField.USE_PREF_SIZE);
-		add(priceField, 1, row);
+		TextInputValidatorPane<TextField> pricePane = new TextInputValidatorPane<TextField>();
+		pricePane.setContent(priceField);
+		pricePane.setValidator(new Validator<TextField>() {
+			public ValidationResult validate(TextField control) {
+				try {
+					String text = control.getText();
+					if (text == null || text.trim().equals(""))
+						return null;
+					Double.parseDouble(text);
+					return null; // Valid Number: success
+				} catch (Exception e) {
+					// failed
+					return new ValidationResult("Bad number", ValidationResult.Type.ERROR);
+				}
+			}
+		});
+		pricePane.getStylesheets().add(styleCss);
+		add(pricePane, 1, row);
 
 		row++;
 

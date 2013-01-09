@@ -17,6 +17,8 @@ import za.co.kumbirai.carsales.gui.main.MainPresenter;
 import za.co.kumbirai.carsales.gui.main.MainView;
 import za.co.kumbirai.carsales.gui.search.CarSearchPresenter;
 import za.co.kumbirai.carsales.gui.search.CarSearchView;
+import za.co.kumbirai.carsales.gui.search.GeneralSearchPresenter;
+import za.co.kumbirai.carsales.gui.search.GeneralSearchView;
 import za.co.kumbirai.carsales.gui.summary.CarSummaryPresenter;
 import za.co.kumbirai.carsales.gui.summary.CarSummaryView;
 import za.co.kumbirai.carsales.service.SimpleCarSalesService;
@@ -48,6 +50,7 @@ public class CarSalesMainFactory {
 	private CarSummaryPresenter carSummaryPresenter;
 	private CarSearchPresenter carSearchPresenter;
 	private CarDetailPresenter carDetailPresenter;
+	private GeneralSearchPresenter generalSearchPresenter;
 	private CarSalesService service;
 
 	/**
@@ -73,6 +76,7 @@ public class CarSalesMainFactory {
 			mainPresenter.setCarSummaryPresenter(getCarSummaryPresenter());
 			mainPresenter.setCarSearchPresenter(getCarSearchPresenter());
 			mainPresenter.setCarDetailPresenter(getCarDetailPresenter());
+			mainPresenter.setGeneralSearchPresenter(getGeneralSearchPresenter());
 		}
 		return mainPresenter;
 	}
@@ -108,6 +112,17 @@ public class CarSalesMainFactory {
 			carDetailPresenter = new CarDetailPresenter(view, getMainPresenter(), getCarSalesService());
 		}
 		return this.carDetailPresenter;
+	}
+
+	/** Getter for the <code>generalSearchPresenter</code> attribute.
+	 * @return GeneralSearchPresenter - value of the attribute <code>generalSearchPresenter</code>.
+	 */
+	public GeneralSearchPresenter getGeneralSearchPresenter() {
+		if (this.generalSearchPresenter == null) {
+			GeneralSearchView view = new GeneralSearchView();
+			generalSearchPresenter = new GeneralSearchPresenter(view, getMainPresenter(), getCarSalesService());
+		}
+		return this.generalSearchPresenter;
 	}
 
 	/** Getter for the <code>service</code> attribute.

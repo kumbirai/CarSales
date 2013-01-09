@@ -17,7 +17,6 @@
 <fullyQualifiedTypeName name="javafx.scene.control.Menu"/>
 <fullyQualifiedTypeName name="javafx.scene.control.MenuItem"/>
 <fullyQualifiedTypeName name="javafx.scene.layout.VBox"/>
-<fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
 <fullyQualifiedTypeName name="za.co.kumbirai.carsales.model.CarModel"/>
 <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
 <fullyQualifiedTypeName name="za.co.kumbirai.carsales.gui.detail.CarDetailPresenter"/>
@@ -28,10 +27,8 @@
 <fullyQualifiedTypeName name="javafx.beans.Observable"/>
 <fullyQualifiedTypeName name="javafx.event.Event"/>
 <fullyQualifiedTypeName name="za.co.kumbirai.carsales.validators.Validator"/>
-<fullyQualifiedTypeName name="javafx.scene.control.TextArea"/>
 <fullyQualifiedTypeName name="za.co.kumbirai.carsales.entities.Manufacturer"/>
 <fullyQualifiedTypeName name="za.co.kumbirai.carsales.gui.summary.CarSummaryView"/>
-<fullyQualifiedTypeName name="za.co.kumbirai.carsales.gui.detail.CarDetailView"/>
 <fullyQualifiedTypeName name="za.co.kumbirai.carsales.gui.search.CarSearchView"/>
 <fullyQualifiedTypeName name="javafx.event.ActionEvent"/>
 <fullyQualifiedTypeName name="javafx.event.EventHandler"/>
@@ -43,4 +40,9 @@
 <fullyQualifiedTypeName name="javafx.scene.paint.Color"/>
 <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
 <fullyQualifiedTypeName name="javafx.geometry.Insets"/>
+<fullyQualifiedTypeName name="za.co.kumbirai.carsales.gui.detail.CarDetailView"/>
+<fullyQualifiedTypeName name="za.co.kumbirai.carsales.gui.search.GeneralSearchPresenter"/>
+<fullyQualifiedTypeName name="javafx.scene.control.TextArea"/>
+<fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
 </qualifiedTypeNameHistroy>

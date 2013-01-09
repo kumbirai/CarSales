@@ -12,6 +12,7 @@ package za.co.kumbirai.carsales.gui.main;
 
 import za.co.kumbirai.carsales.gui.detail.CarDetailPresenter;
 import za.co.kumbirai.carsales.gui.search.CarSearchPresenter;
+import za.co.kumbirai.carsales.gui.search.GeneralSearchPresenter;
 import za.co.kumbirai.carsales.gui.summary.CarSummaryPresenter;
 
 /**
@@ -39,6 +40,7 @@ public class MainPresenter {
 	private CarSummaryPresenter carSummaryPresenter;
 	private CarSearchPresenter carSearchPresenter;
 	private CarDetailPresenter carDetailPresenter;
+	private GeneralSearchPresenter generalSearchPresenter;
 
 	/**
 	 * @param view 
@@ -77,6 +79,13 @@ public class MainPresenter {
 		this.carDetailPresenter = carDetailPresenter;
 	}
 
+	/** Setter for the <code>generalSearchPresenter</code> attribute.
+	 * @param GeneralSearchPresenter generalSearchPresenter
+	 */
+	public void setGeneralSearchPresenter(GeneralSearchPresenter generalSearchPresenter) {
+		this.generalSearchPresenter = generalSearchPresenter;
+	}
+
 	/**
 	 * @author Kumbirai 'Coach' Mundangepfupfu - 20 Dec 2012
 	 * 
@@ -109,5 +118,16 @@ public class MainPresenter {
 	public void showCarDetails(Long carId) {
 		carDetailPresenter.show(carId);
 		view.setContent(carDetailPresenter.getView());
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 09 Jan 2013
+	 * 
+	 * gotoSearch
+	 * 
+	 */
+	public void gotoSearch() {
+		generalSearchPresenter.show();
+		view.setContent(generalSearchPresenter.getView());
 	}
 }

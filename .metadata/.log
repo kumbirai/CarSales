@@ -5403,3 +5403,51 @@ Command-line arguments:  -os win32 -ws win32 -arch x86
 
 !ENTRY org.eclipse.core.net 1 0 2013-01-08 12:47:05.715
 !MESSAGE System property https.proxyPort is set to 80 but should not be set.
+!SESSION 2013-01-09 11:10:22.578 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.7.0_10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZA
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-01-09 11:10:24.156
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY at.bestsolution.efxclipse.tooling.css.jfx 4 0 2013-01-09 11:10:24.156
+!MESSAGE [SCR] Component definition XMLs not found in bundle at.bestsolution.efxclipse.tooling.css.jfx. The component header value is OSGI-INF/component.xml
+
+!ENTRY org.eclipse.ui 4 4 2013-01-09 11:11:02.890
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.context.ui.actionSet
+
+!ENTRY org.eclipse.ui 4 4 2013-01-09 11:11:02.906
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.tasks.ui.navigation
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-09 11:11:21.937
+!MESSAGE System property http.proxyHost is set to 10.6.125.69 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-09 11:11:21.937
+!MESSAGE System property http.proxyPort is set to 80 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-09 11:11:21.937
+!MESSAGE System property https.proxyHost is set to 10.6.125.69 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2013-01-09 11:11:21.937
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2013-01-09 11:19:11.984
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Timed out while retrieving the attached javadoc for ObservableValue [in ObservableValue.class [in javafx.beans.value [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]] ]
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:808)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1037)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:639)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:619)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:565)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:557)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1012 2013-01-09 11:19:11.984
+!MESSAGE Timed out while retrieving the attached javadoc for ObservableValue [in ObservableValue.class [in javafx.beans.value [in C:\Program Files\Java\jre7\lib\jfxrt.jar]]] 

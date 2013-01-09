@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Tue Jan 08 14:03:31 CAT 2013:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-013c-1a0b-41f6-000000649f08 
+Wed Jan 09 15:57:52 CAT 2013:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-013c-1f9a-5171-000000739008 
 on database directory C:\Derby\CarSales  with class loader sun.misc.Launcher$AppClassLoader@197d257 
 Loaded from file:/C:/Code/CarSales/Cars/lib/derby.jar
 java.vendor=Oracle Corporation

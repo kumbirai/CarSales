@@ -1,0 +1,312 @@
+/**
+ * za.co.kumbirai.carsales.gui.main<br>
+ * 
+ * <p><b>Title:</b> MainView<br>
+ * <b>Description:</b> <br>
+ * <b>Copyright:</b> Copyright (c) 2012<br>
+ * <b>Company:</b> SSP</p>
+ * @author Kumbirai 'Coach' Mundangepfupfu
+ * @date 19 Dec 2012 1:21:06 PM
+ */
+package za.co.kumbirai.carsales.gui.main;
+
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+import javafx.scene.Group;
+import javafx.scene.Node;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.Menu;
+import javafx.scene.control.MenuBar;
+import javafx.scene.control.MenuItem;
+import javafx.scene.control.Toggle;
+import javafx.scene.control.ToggleButton;
+import javafx.scene.control.ToggleGroup;
+import javafx.scene.effect.Lighting;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
+import javafx.scene.text.Font;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+import javafx.stage.WindowEvent;
+import za.co.kumbirai.carsales.gui.detail.CarDetailView;
+import za.co.kumbirai.carsales.gui.search.CarSearchView;
+import za.co.kumbirai.carsales.gui.summary.CarSummaryView;
+
+/**
+ * <p><b>Purpose:</b><br>
+ * <br>
+ *
+ * Copyright Notice<br>
+ * ================<br>
+ * This file contains proprietary information.
+ * Copying or reproduction without prior written approval is prohibited.<br>
+ * Copyright (c) 2012<br>
+ * 
+ * <p><b>Title:</b> MainView<br>
+ * <b>Description:</b> </p>
+ *
+ * @author Kumbirai 'Coach' Mundangepfupfu<br>
+ * @date 19 Dec 2012 1:21:06 PM<br>
+ * @version 1.0<br>
+ *
+ * <b>Revision:</b>
+ *					
+ */
+public class MainView extends BorderPane {
+	private MainPresenter presenter;
+	private Stage stage;
+	private BorderPane contentArea;
+	private ToggleGroup group;
+	private ToggleButton wlcmBtn;
+	private ToggleButton addCarBtn;
+	private ToggleButton shwAllBtn;
+	private ToggleButton genSrchBtn;
+	private ToggleButton srchPrcBtn;
+
+	private boolean searchNullCarDetails = true;
+
+	/**
+	 * 
+	 */
+	public MainView() {
+		buildView();
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 19 Dec 2012
+	 * 
+	 * setPresenter
+	 * 
+	 * @param mainPresenter
+	 */
+	public void setPresenter(MainPresenter mainPresenter) {
+		this.presenter = mainPresenter;
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 19 Dec 2012
+	 * 
+	 * setContent
+	 * 
+	 * @param content
+	 */
+	public void setContent(Node content) {
+		contentArea.setCenter(content);
+		setToggle(content);
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 07 Jan 2013
+	 * 
+	 * setToggle
+	 * 
+	 * @param content
+	 */
+	private void setToggle(Node content) {
+		if (group != null) {
+			if (content.getClass().equals(CarSummaryView.class)) {
+				if (!wlcmBtn.equals(group.getSelectedToggle()))
+					group.selectToggle(wlcmBtn);
+			}
+			if (content.getClass().equals(CarDetailView.class)) {
+				if (!addCarBtn.equals(group.getSelectedToggle())) {
+					// We change the ToggleButton via code so we don't want to search for a new car 
+					// and change the 'contentArea' when the ToggleGroup ChangeListener is called.
+					searchNullCarDetails = false;
+					group.selectToggle(addCarBtn);
+				}
+			}
+			if (content.getClass().equals(CarSearchView.class)) {
+				if (!shwAllBtn.equals(group.getSelectedToggle()))
+					group.selectToggle(shwAllBtn);
+			}
+			if (content.getClass().equals(CarSearchView.class)) {
+				if (!shwAllBtn.equals(group.getSelectedToggle()))
+					group.selectToggle(shwAllBtn);
+			}
+		}
+	}
+
+	/** Setter for the <code>stage</code> attribute.
+	 * @param Stage stage
+	 */
+	public void setStage(Stage stage) {
+		this.stage = stage;
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 19 Dec 2012
+	 * 
+	 * buildView
+	 * 
+	 */
+	protected void buildView() {
+		VBox topArea = new VBox(5);
+		topArea.getChildren().add(createMenuBar());
+		topArea.getStyleClass().add("header");
+
+		Label titleLabel = new Label("My Car Sales");
+		titleLabel.getStyleClass().add("title");
+		topArea.getChildren().add(titleLabel);
+
+		Label tagLine = new Label("Car Sales System");
+		tagLine.getStyleClass().add("tag-line");
+		topArea.getChildren().add(tagLine);
+
+		//setTop(topArea);
+		setTop(createMenuBar());
+
+		setLeft(createLeftMenu());
+		contentArea = new BorderPane();
+		contentArea.getStyleClass().add("body");
+
+		setCenter(contentArea);
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 21 Dec 2012
+	 * 
+	 * createMenus
+	 * 
+	 * @return
+	 */
+	MenuBar createMenuBar() {
+		MenuBar menuBar = new MenuBar();
+		Menu fileMenu = new Menu("File");
+		menuBar.getMenus().add(fileMenu);
+
+		MenuItem fileAboutItem = new MenuItem("About");
+		fileAboutItem.setOnAction(new EventHandler<ActionEvent>() {
+			public void handle(ActionEvent t) {
+				if (stage != null) {
+					final Stage aboutStage = new Stage();
+					//create root node of scene, i.e. group
+					Group rootGroup = new Group();
+					//create scene with set width, height and color
+					Scene scene = new Scene(rootGroup, 200, 200, Color.WHITESMOKE);
+					//set scene to stage
+					aboutStage.setScene(scene);
+					//center stage on screen
+					aboutStage.centerOnScreen();
+					//show the stage
+					aboutStage.show();
+					//add some node to scene
+					Text text = new Text(20, 80, "Cars Sales System\n\nKumbirai Mundangepfupfu\nVersion 1.0");
+					text.setFill(Color.DODGERBLUE);
+					text.setEffect(new Lighting());
+					text.setFont(Font.font(Font.getDefault().getFamily(), 16));
+					//add text to the main root group
+					Button close = new Button("Close");
+					close.setOnAction(new EventHandler<ActionEvent>() {
+						public void handle(ActionEvent event) {
+							aboutStage.close();
+						}
+					});
+
+					VBox vBox = new VBox();
+					vBox.setSpacing(10);
+					vBox.setPadding(new Insets(50, 0, 0, 10));
+					vBox.setAlignment(Pos.TOP_CENTER);
+					vBox.getChildren().addAll(text, close);
+
+					rootGroup.getChildren().add(vBox);
+				}
+			}
+		});
+		fileMenu.getItems().add(fileAboutItem);
+
+		MenuItem fileExitItem = new MenuItem("Exit");
+		fileExitItem.setOnAction(new EventHandler<ActionEvent>() {
+			public void handle(ActionEvent t) {
+				if (stage != null) {
+					WindowEvent we = new WindowEvent(stage, WindowEvent.WINDOW_CLOSE_REQUEST);
+					stage.fireEvent(we);
+				}
+			}
+		});
+		fileMenu.getItems().add(fileExitItem);
+
+		return menuBar;
+	}
+
+	/**
+	 * @author Kumbirai 'Coach' Mundangepfupfu - 21 Dec 2012
+	 * 
+	 * createLeftMenu
+	 * 
+	 * @return
+	 */
+	VBox createLeftMenu() {
+		VBox left = new VBox(2);
+
+		Double btnWidth = new Double(205);
+
+		group = new ToggleGroup();
+
+		wlcmBtn = new ToggleButton("Welcome");
+		wlcmBtn.setMaxWidth(btnWidth);
+		wlcmBtn.setToggleGroup(group);
+		left.getChildren().add(wlcmBtn);
+
+		addCarBtn = new ToggleButton("Add a Car");
+		addCarBtn.setMaxWidth(btnWidth);
+		addCarBtn.setToggleGroup(group);
+		left.getChildren().add(addCarBtn);
+
+		shwAllBtn = new ToggleButton("Show all makes and models");
+		shwAllBtn.setMaxWidth(btnWidth);
+		shwAllBtn.setToggleGroup(group);
+		left.getChildren().add(shwAllBtn);
+
+		genSrchBtn = new ToggleButton("Search");
+		genSrchBtn.setMaxWidth(btnWidth);
+		genSrchBtn.setToggleGroup(group);
+		left.getChildren().add(genSrchBtn);
+
+		srchPrcBtn = new ToggleButton("Search on Price and Distance traveled");
+		srchPrcBtn.setMaxWidth(btnWidth);
+		srchPrcBtn.setToggleGroup(group);
+		//left.getChildren().add(srchPrcBtn);
+
+		group.selectedToggleProperty().addListener(new ChangeListener<Toggle>() {
+			@Override
+			public void changed(ObservableValue<? extends Toggle> observable, Toggle oldValue, Toggle selectedToggle) {
+				String selected = new String();
+				if (selectedToggle != null)
+					selected = ((ToggleButton) selectedToggle).getText();
+
+				if (presenter != null) {
+					if ("Welcome".equalsIgnoreCase(selected)) {
+						presenter.showSummary();
+					}
+					if ("Add a Car".equalsIgnoreCase(selected)) {
+						// If we change the ToggleButton via code in MainView#setToggle(Node)then we don't want to search
+						// for a new car and change the 'contentArea'.
+						if (searchNullCarDetails)
+							presenter.showCarDetails(null);
+						searchNullCarDetails = true;
+					}
+					if ("Show all makes and models".equalsIgnoreCase(selected)) {
+						presenter.showSearchResults();
+					}
+					if ("Search".equalsIgnoreCase(selected)) {
+						presenter.gotoSearch();
+					}
+
+				}
+			}
+		});
+
+		// select the first button to start with
+		group.selectToggle(wlcmBtn);
+
+		return left;
+	}
+}
