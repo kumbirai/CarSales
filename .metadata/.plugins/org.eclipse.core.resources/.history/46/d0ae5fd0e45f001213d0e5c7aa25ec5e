@@ -165,6 +165,7 @@ public class MainView extends BorderPane {
 		topArea.getChildren().add(createMenuBar());
 		topArea.getChildren().add(header);
 		setTop(topArea);
+		//setTop(createMenuBar());
 
 		setLeft(createLeftMenu());
 		contentArea = new BorderPane();

@@ -150,8 +150,8 @@ public class MainView extends BorderPane {
 	 * 
 	 */
 	protected void buildView() {
-		VBox topArea = new VBox(0);
-		VBox header = new VBox(5);
+		VBox topArea = new VBox(5);
+		VBox header = new VBox(0);
 		header.getStyleClass().add("header");
 
 		Label titleLabel = new Label("My Car Sales");
@@ -165,6 +165,7 @@ public class MainView extends BorderPane {
 		topArea.getChildren().add(createMenuBar());
 		topArea.getChildren().add(header);
 		setTop(topArea);
+		//setTop(createMenuBar());
 
 		setLeft(createLeftMenu());
 		contentArea = new BorderPane();

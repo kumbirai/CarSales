@@ -1,5 +1,5 @@
 .header {
-    -fx-padding: 15;
+    -fx-padding: 20;
     -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, BLUE 0%, DODGERBLUE 100%);
     -fx-text-fill: white;
 }

@@ -19,6 +19,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.control.Tooltip;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import za.co.kumbirai.carsales.entities.Car;
@@ -156,6 +157,7 @@ public class CarDetailView extends GridPane {
 		carYearField.setPrefColumnCount(20);
 		carYearField.setPromptText("Year");
 		carYearField.setMaxHeight(TextField.USE_PREF_SIZE);
+		carYearField.setTooltip(new Tooltip("Car Year should be between 1996 and 2013"));
 		TextInputValidatorPane<TextField> carYearPane = new TextInputValidatorPane<TextField>();
 		carYearPane.setContent(carYearField);
 		carYearPane.setValidator(new Validator<TextField>() {
